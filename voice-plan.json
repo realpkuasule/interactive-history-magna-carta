@@ -1,0 +1,1569 @@
+{
+  "output": {
+    "fps": 24
+  },
+  "audioTracks": [
+    {
+      "id": "voice-realm",
+      "assetId": "voice-realm",
+      "startFrame": 0,
+      "durationFrames": 552,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-money",
+      "assetId": "voice-money",
+      "startFrame": 570,
+      "durationFrames": 614,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-church",
+      "assetId": "voice-church",
+      "startFrame": 1202,
+      "durationFrames": 507,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-bouvines",
+      "assetId": "voice-bouvines",
+      "startFrame": 1727,
+      "durationFrames": 556,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-runnymede",
+      "assetId": "voice-runnymede",
+      "startFrame": 2301,
+      "durationFrames": 524,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-seal",
+      "assetId": "voice-seal",
+      "startFrame": 2843,
+      "durationFrames": 500,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-bargain",
+      "assetId": "voice-bargain",
+      "startFrame": 3361,
+      "durationFrames": 522,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-tax",
+      "assetId": "voice-tax",
+      "startFrame": 3901,
+      "durationFrames": 478,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-justice",
+      "assetId": "voice-justice",
+      "startFrame": 4397,
+      "durationFrames": 526,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-scope",
+      "assetId": "voice-scope",
+      "startFrame": 4941,
+      "durationFrames": 589,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-security",
+      "assetId": "voice-security",
+      "startFrame": 5548,
+      "durationFrames": 590,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-annulment",
+      "assetId": "voice-annulment",
+      "startFrame": 6156,
+      "durationFrames": 468,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-war",
+      "assetId": "voice-war",
+      "startFrame": 6642,
+      "durationFrames": 588,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-john-death",
+      "assetId": "voice-john-death",
+      "startFrame": 7248,
+      "durationFrames": 502,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-reissue-1216",
+      "assetId": "voice-reissue-1216",
+      "startFrame": 7768,
+      "durationFrames": 541,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-reissue-1217",
+      "assetId": "voice-reissue-1217",
+      "startFrame": 8327,
+      "durationFrames": 509,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-forest",
+      "assetId": "voice-forest",
+      "startFrame": 8854,
+      "durationFrames": 535,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-reissue-1225",
+      "assetId": "voice-reissue-1225",
+      "startFrame": 9407,
+      "durationFrames": 565,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-statute",
+      "assetId": "voice-statute",
+      "startFrame": 9990,
+      "durationFrames": 521,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-coke",
+      "assetId": "voice-coke",
+      "startFrame": 10529,
+      "durationFrames": 512,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-symbol",
+      "assetId": "voice-symbol",
+      "startFrame": 11059,
+      "durationFrames": 496,
+      "playbackRate": 1
+    },
+    {
+      "id": "voice-meaning",
+      "assetId": "voice-meaning",
+      "startFrame": 11573,
+      "durationFrames": 557,
+      "playbackRate": 1
+    }
+  ],
+  "assets": [
+    {
+      "id": "voice-realm",
+      "file": {
+        "path": "audio/voice-realm.mp3",
+        "sha256": "cc7578429e16a0f3b62e8fe2f9b9092210395f8509c886a55a72944cc1789691"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-money",
+      "file": {
+        "path": "audio/voice-money.mp3",
+        "sha256": "49ace673a0145a0c01d601fff73496b0aeed53ee0ef11227ffa4a8caa0d57ba3"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-church",
+      "file": {
+        "path": "audio/voice-church.mp3",
+        "sha256": "0d3a6262ccb6e98d3130573490536da9ce0a509122f4aaaac0771894bf421df0"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-bouvines",
+      "file": {
+        "path": "audio/voice-bouvines.mp3",
+        "sha256": "d03a591183236bb01a3f46aef46cd80d6862acde0c32ba3437e8aa3c1963ba79"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-runnymede",
+      "file": {
+        "path": "audio/voice-runnymede.mp3",
+        "sha256": "fe6ef7b394ddf9cccafb70b1646c8980a8a129a538142847fa56652f105dafb4"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-seal",
+      "file": {
+        "path": "audio/voice-seal.mp3",
+        "sha256": "7a52e2bed9a7a1d675038ed0e9eae3dce9615e13c683f6cb9dc15a40250949bb"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-bargain",
+      "file": {
+        "path": "audio/voice-bargain.mp3",
+        "sha256": "80bf5beb7be2626953206978d0204d0f78a8ff5618e25e17e5d18d1d10ccefd9"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-tax",
+      "file": {
+        "path": "audio/voice-tax.mp3",
+        "sha256": "e2c7337f4aebd13795ebad73507f934335b4cfea15139911561b9956d9e1c386"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-justice",
+      "file": {
+        "path": "audio/voice-justice.mp3",
+        "sha256": "c3a34b961006e80387f4898c9aa396e6c203bcc58629657b6d0399b63e326f58"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-scope",
+      "file": {
+        "path": "audio/voice-scope.mp3",
+        "sha256": "8b6e94926a6d410395864de6b4024e8c41ddbefe77dbc44737ff85ae5c849397"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-security",
+      "file": {
+        "path": "audio/voice-security.mp3",
+        "sha256": "3cced5a6587124b90b4524190d9db0d867ed1086d67544c2a03d825bbcff7c06"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-annulment",
+      "file": {
+        "path": "audio/voice-annulment.mp3",
+        "sha256": "905af64d89abe280208fc1036ca602c541e8a25aba70dc63e3394b8cb9a8ffcf"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-war",
+      "file": {
+        "path": "audio/voice-war.mp3",
+        "sha256": "f038f20af024f8597392b6db713fa355c63a3b122c0a249623af44ab7f267637"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-john-death",
+      "file": {
+        "path": "audio/voice-john-death.mp3",
+        "sha256": "030f60ff8b680c94c6e21d6db123220bb5757e73cc2af9a6cd2b147a0a5dbe85"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-reissue-1216",
+      "file": {
+        "path": "audio/voice-reissue-1216.mp3",
+        "sha256": "1b25ad084f85155466a4bdae10e4021d70df025927947d527194ffddc3017cb4"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-reissue-1217",
+      "file": {
+        "path": "audio/voice-reissue-1217.mp3",
+        "sha256": "25422126ed041b0fa8d3f962949e4ce4e4fc18f573e13a780055fe0b22e14e38"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-forest",
+      "file": {
+        "path": "audio/voice-forest.mp3",
+        "sha256": "2200068a691ff6cab384ebba8b2b5f9b7a6aa08ed926f673f0427298a62ee93e"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-reissue-1225",
+      "file": {
+        "path": "audio/voice-reissue-1225.mp3",
+        "sha256": "067047ae0bdf5cff2d5feee43823c6639ddec4252b3b23d937cbeafbf1063595"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-statute",
+      "file": {
+        "path": "audio/voice-statute.mp3",
+        "sha256": "236c271925d441dad641a24fd68be7dcc41bf9358ab16415e43fef5e55dc4a36"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-coke",
+      "file": {
+        "path": "audio/voice-coke.mp3",
+        "sha256": "640fbb9052a1c018bc40468a6807a7944b2cec938c64c8f3829749c286729bda"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-symbol",
+      "file": {
+        "path": "audio/voice-symbol.mp3",
+        "sha256": "07457d6eb7688d25c71f5e5e5282babd106d647bd24baf1c0c457ae933e638f7"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-meaning",
+      "file": {
+        "path": "audio/voice-meaning.mp3",
+        "sha256": "1ba8a257bfb75cbae9bfc6ad995a42731ce9092a1d37ac0922d42e334733c4e3"
+      },
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    }
+  ],
+  "captions": {
+    "voice-realm": [
+      {
+        "text": "讲大宪章，先别急着看那张羊皮纸。",
+        "startMs": 100,
+        "endMs": 2960,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "约翰是英格兰国王，家族却还在法国拥有大片领地。",
+        "startMs": 3440,
+        "endMs": 7140,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "1204年，他丢掉了诺曼底等重要地区。",
+        "startMs": 7500,
+        "endMs": 10480,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "他想夺回来，就得筹钱打仗。",
+        "startMs": 10740,
+        "endMs": 12960,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "海峡另一边的战争，逐渐变成了英格兰贵族身上的负担。",
+        "startMs": 13200,
+        "endMs": 16900,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11"
+        ]
+      },
+      {
+        "text": "大宪章的起点，是这一场越来越难维持的权力与财政关系。",
+        "startMs": 17620,
+        "endMs": 22680,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-money": [
+      {
+        "text": "国王需要的钱，要从哪里来？",
+        "startMs": 200,
+        "endMs": 2440,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "贵族可以交钱代替出兵，继承、婚姻和监护也可能产生付款义务。",
+        "startMs": 3320,
+        "endMs": 8840,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "问题是，这些要求越来越重，战争又没有带来预期回报。",
+        "startMs": 9740,
+        "endMs": 14160,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "贵族担心的不只是口袋里的钱，还有家产和地位会不会被王权随意处置。",
+        "startMs": 14720,
+        "endMs": 20560,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12"
+        ]
+      },
+      {
+        "text": "所以，他们要的是把国王也约束在可辨认的规则里。",
+        "startMs": 21180,
+        "endMs": 25220,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-church": [
+      {
+        "text": "桌边还有一股重要力量：教会。",
+        "startMs": 100,
+        "endMs": 2700,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "兰顿大主教参与协商，教会自身的自由也写进了宪章。",
+        "startMs": 3420,
+        "endMs": 7280,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "但本地大主教和罗马教皇，并不总是站在同一位置。",
+        "startMs": 7620,
+        "endMs": 11200,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6-p1",
+          "run-0-c6-p2"
+        ]
+      },
+      {
+        "text": "后来，约翰正是借助教皇的支持，推翻了这次安排。",
+        "startMs": 11540,
+        "endMs": 15060,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c7",
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10"
+        ]
+      },
+      {
+        "text": "记住这个区别，我们才看得懂：看似达成的和平，为什么很快又散了。",
+        "startMs": 15360,
+        "endMs": 20940,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14"
+        ]
+      }
+    ],
+    "voice-bouvines": [
+      {
+        "text": "1214年，约翰的夺地计划受到重创。",
+        "startMs": 440,
+        "endMs": 3180,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "布汶战役中，他的盟军败了；约翰本人在另一处，不能说他亲自在布汶战败。",
+        "startMs": 3560,
+        "endMs": 9000,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "军事失败没有消除筹款压力，反而让旧怨集中爆发。",
+        "startMs": 9280,
+        "endMs": 13540,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9"
+        ]
+      },
+      {
+        "text": "到了1215年春，反叛贵族控制了伦敦。",
+        "startMs": 13800,
+        "endMs": 17080,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c10",
+          "run-0-c11"
+        ]
+      },
+      {
+        "text": "双方手里都有武力，谁也不容易压倒谁，谈判就这样被推到了眼前。",
+        "startMs": 17400,
+        "endMs": 22980,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-runnymede": [
+      {
+        "text": "1215年6月15日，双方在兰尼米德达成协议。",
+        "startMs": 180,
+        "endMs": 3820,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "先把它想成一份要止住内战的和约：约翰希望恢复服从，贵族要求把王权的边界写下来。",
+        "startMs": 4320,
+        "endMs": 11280,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "它很重要，却没有一夜之间建立现代民主。",
+        "startMs": 11480,
+        "endMs": 14560,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10"
+        ]
+      },
+      {
+        "text": "真正有意思的地方是，这场和平很快失败了，文书中的一些承诺却活了下来。",
+        "startMs": 15080,
+        "endMs": 21520,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15",
+          "run-0-c16"
+        ]
+      }
+    ],
+    "voice-seal": [],
+    "voice-bargain": [
+      {
+        "text": "打开宪章，你会发现它谈的事情非常具体：继承、债务、婚姻、城市权利，还有森林制度。",
+        "startMs": 120,
+        "endMs": 7080,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6"
+        ]
+      },
+      {
+        "text": "后世著名的大原则，最初往往藏在这些现实争端里。",
+        "startMs": 7520,
+        "endMs": 10880,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c7",
+          "run-0-c8",
+          "run-0-c9"
+        ]
+      },
+      {
+        "text": "接下来，我们抓住四个问题：国王怎样要钱，司法怎样约束权力，承诺保护谁，以及违约后谁来执行。",
+        "startMs": 11400,
+        "endMs": 21580,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14"
+        ]
+      }
+    ],
+    "voice-tax": [
+      {
+        "text": "先看钱。",
+        "startMs": 240,
+        "endMs": 920,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1"
+        ]
+      },
+      {
+        "text": "第12条要求，征收某些兵役代役金和援助金，应当经过共同协商；它也保留了几类例外。",
+        "startMs": 1400,
+        "endMs": 7920,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c2-p1",
+          "run-0-c2-p2",
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "那谁来协商呢？",
+        "startMs": 8300,
+        "endMs": 9200,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4"
+        ]
+      },
+      {
+        "text": "主要是教会领袖、贵族和直接从国王那里领地的人。",
+        "startMs": 9540,
+        "endMs": 13240,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "这里已经出现了征钱需要同意的要求，但距离一人一票、议会代表全体居民，还很远。",
+        "startMs": 13480,
+        "endMs": 19740,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13"
+        ]
+      }
+    ],
+    "voice-justice": [
+      {
+        "text": "最有名的是第39和第40条。",
+        "startMs": 100,
+        "endMs": 2080,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "国王不能任意拘捕、剥夺财产，也不能出卖、拒绝或拖延司法。",
+        "startMs": 2500,
+        "endMs": 7360,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6"
+        ]
+      },
+      {
+        "text": "不过，原文说的自由人和同等身份者，都带着中世纪的含义，不能直接换成今天人人平等的公民和现代陪审团。",
+        "startMs": 7700,
+        "endMs": 17320,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c7",
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11"
+        ]
+      },
+      {
+        "text": "后世从这些话里发展出更广的原则，那是一段继续发生的历史。",
+        "startMs": 17560,
+        "endMs": 21780,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15",
+          "run-0-c16"
+        ]
+      }
+    ],
+    "voice-scope": [
+      {
+        "text": "那么，它只保护贵族吗？",
+        "startMs": 340,
+        "endMs": 2520,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "也不完全是。",
+        "startMs": 3740,
+        "endMs": 4560,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "城市、商人和一些自由土地持有者的利益，都出现在条文里。",
+        "startMs": 5280,
+        "endMs": 9720,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "寡妇也得到部分财产和再婚意愿的保护。",
+        "startMs": 10200,
+        "endMs": 13180,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "但大量非自由农民没有同等地位，女性的选择仍受领主权力限制。",
+        "startMs": 13460,
+        "endMs": 18600,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10"
+        ]
+      },
+      {
+        "text": "看这份文书，要同时看到它减少了哪些侵害，又保留了哪些不平等。",
+        "startMs": 18980,
+        "endMs": 24340,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14"
+        ]
+      }
+    ],
+    "voice-security": [
+      {
+        "text": "承诺写下来了，谁来保证国王照做？",
+        "startMs": 120,
+        "endMs": 2900,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "保障条款交给25名贵族一项特殊权力：先提出违约，给国王40天纠正；如果仍不补救，就可以扣押城堡、土地和财产。",
+        "startMs": 3260,
+        "endMs": 13800,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "这个设计很强硬，也很脆弱。",
+        "startMs": 14180,
+        "endMs": 16300,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12"
+        ]
+      },
+      {
+        "text": "执行靠的还是贵族的力量，而不是一个稳定的独立裁判机构。",
+        "startMs": 16620,
+        "endMs": 20540,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15",
+          "run-0-c16",
+          "run-0-c17"
+        ]
+      },
+      {
+        "text": "写进文书，和真正执行，是两回事。",
+        "startMs": 21140,
+        "endMs": 24360,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c18"
+        ]
+      }
+    ],
+    "voice-annulment": [
+      {
+        "text": "和平没有维持多久。",
+        "startMs": 260,
+        "endMs": 1460,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1"
+        ]
+      },
+      {
+        "text": "1215年8月，约翰得到教皇的支持，教皇宣布宪章无效。",
+        "startMs": 1980,
+        "endMs": 7080,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c2",
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "这里不是约翰一个人把纸撕掉那么简单：教皇的权威，给了他反对协议的重要依据。",
+        "startMs": 7560,
+        "endMs": 13060,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10"
+        ]
+      },
+      {
+        "text": "但贵族的不满不会因此消失。",
+        "startMs": 13500,
+        "endMs": 15760,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c11",
+          "run-0-c12"
+        ]
+      },
+      {
+        "text": "共同的规则没能站稳，双方又回到武力较量。",
+        "startMs": 16020,
+        "endMs": 19300,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-war": [
+      {
+        "text": "贵族还做了一个今天听来意外的选择：邀请法国王子路易来争夺王位。",
+        "startMs": 220,
+        "endMs": 5980,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "1216年，他带兵抵达，在伦敦被拥立，却没有加冕。",
+        "startMs": 6680,
+        "endMs": 10980,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6"
+        ]
+      },
+      {
+        "text": "反对约翰，并不等于反对君主制。",
+        "startMs": 11380,
+        "endMs": 14180,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "战争一直拖到1217年，林肯和桑威奇的失利，才让路易阵营走向和解。",
+        "startMs": 14680,
+        "endMs": 20360,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10"
+        ]
+      },
+      {
+        "text": "宪章的命运，始终与力量的变化绑在一起。",
+        "startMs": 20800,
+        "endMs": 24200,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13"
+        ]
+      }
+    ],
+    "voice-john-death": [
+      {
+        "text": "1216年10月，约翰去世，九岁的亨利三世继位。",
+        "startMs": 260,
+        "endMs": 4340,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3",
+          "run-0-c4"
+        ]
+      },
+      {
+        "text": "战争并没有马上结束，但政治局面变了。",
+        "startMs": 4800,
+        "endMs": 7680,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c5",
+          "run-0-c6"
+        ]
+      },
+      {
+        "text": "原先反对约翰的贵族，现在可以转而接受这个孩子。",
+        "startMs": 8020,
+        "endMs": 11780,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "摄政政府抓住机会：重新承诺一些自由，争取支持。",
+        "startMs": 12080,
+        "endMs": 15900,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11"
+        ]
+      },
+      {
+        "text": "于是，原本限制国王的宪章，也成了王室重新站稳的工具。",
+        "startMs": 16260,
+        "endMs": 20780,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-reissue-1216": [
+      {
+        "text": "1216年11月，宪章第一次重新颁布。",
+        "startMs": 240,
+        "endMs": 3500,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "幼王还没有自己的大印，摄政者和教皇使节用印认证。",
+        "startMs": 3860,
+        "endMs": 8100,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "文本也变了，特别强硬的保障安排被去掉。",
+        "startMs": 8500,
+        "endMs": 11600,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "王室要保留能吸引支持的承诺，同时避免让宪章继续成为对抗王权的工具。",
+        "startMs": 12000,
+        "endMs": 17680,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12"
+        ]
+      },
+      {
+        "text": "文书活下来了，但已经不是原封不动的1215年版本。",
+        "startMs": 18180,
+        "endMs": 22420,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-reissue-1217": [
+      {
+        "text": "到了1217年，战争终于走向和解，宪章再次重颁。",
+        "startMs": 220,
+        "endMs": 4640,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "它现在承担的新任务，是让一个刚经历内战的王国重新合作。",
+        "startMs": 5000,
+        "endMs": 9080,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6"
+        ]
+      },
+      {
+        "text": "与此同时，森林事项另立一份宪章。",
+        "startMs": 9440,
+        "endMs": 12440,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "理解这两份文书，我们就能看到：限制权力，既关乎王位和贵族，也关乎土地与日常生活。",
+        "startMs": 12840,
+        "endMs": 20980,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13"
+        ]
+      }
+    ],
+    "voice-forest": [
+      {
+        "text": "这里的森林，不一定就是密林。",
+        "startMs": 80,
+        "endMs": 2060,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "它首先是一片受到王室特别管制的区域，里面还可能有牧地和村庄。",
+        "startMs": 2380,
+        "endMs": 7240,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3",
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "森林宪章处理这些规则怎样影响人们放牧、取用燃料和使用土地。",
+        "startMs": 7760,
+        "endMs": 13100,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "它在1217年独立颁布。",
+        "startMs": 13300,
+        "endMs": 15100,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9"
+        ]
+      },
+      {
+        "text": "画面展示的是1225年重颁文本，日期要分清，不能拿后来的文书冒充最初那一份。",
+        "startMs": 15360,
+        "endMs": 22000,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15"
+        ]
+      }
+    ],
+    "voice-reissue-1225": [
+      {
+        "text": "1225年，亨利三世以自己的大印颁布新版本，换取一笔税收。",
+        "startMs": 280,
+        "endMs": 5400,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3",
+          "run-0-c4"
+        ]
+      },
+      {
+        "text": "后来长期发挥作用的文本，主要在这时定型。",
+        "startMs": 5680,
+        "endMs": 8720,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "它保留许多承诺，也删改了原来的安排。",
+        "startMs": 9100,
+        "endMs": 11840,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10"
+        ]
+      },
+      {
+        "text": "你会发现一条反复出现的线索：国王需要钱，其他人便有机会要求确认权利。",
+        "startMs": 12200,
+        "endMs": 19240,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13",
+          "run-0-c14"
+        ]
+      },
+      {
+        "text": "宪章的生命，是在这种政治交换中延续的。",
+        "startMs": 19900,
+        "endMs": 23360,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c15",
+          "run-0-c16",
+          "run-0-c17"
+        ]
+      }
+    ],
+    "voice-statute": [
+      {
+        "text": "再往后看，1297年，爱德华一世确认宪章，修订后的文本进入官方成文法卷。",
+        "startMs": 80,
+        "endMs": 6900,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "距离最初的协议，已经八十多年了。",
+        "startMs": 7200,
+        "endMs": 9780,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5"
+        ]
+      },
+      {
+        "text": "原初和约失败，与后来的文本获得持久地位，并不冲突。",
+        "startMs": 9980,
+        "endMs": 13980,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "正是这些重颁、确认和重新解释，把一场危机里的承诺，变成了可以不断援引的法律资源。",
+        "startMs": 14180,
+        "endMs": 21480,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13"
+        ]
+      }
+    ],
+    "voice-coke": [
+      {
+        "text": "到了17世纪，科克和塞尔登等人又拿起大宪章，反对任意拘禁和未经议会同意的征税。",
+        "startMs": 80,
+        "endMs": 6960,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3",
+          "run-0-c4"
+        ]
+      },
+      {
+        "text": "1628年的《权利请愿书》，把这些争论推向新的阶段。",
+        "startMs": 7500,
+        "endMs": 11360,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8"
+        ]
+      },
+      {
+        "text": "他们不是简单重复中世纪贵族的要求，而是在自己的时代重新解释古老文本。",
+        "startMs": 11740,
+        "endMs": 17080,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c9",
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12"
+        ]
+      },
+      {
+        "text": "大宪章的影响，正是在这样的引用中不断扩大。",
+        "startMs": 17340,
+        "endMs": 21060,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15",
+          "run-0-c16",
+          "run-0-c17"
+        ]
+      }
+    ],
+    "voice-symbol": [
+      {
+        "text": "后来，大宪章跨越大西洋，又进入更多地方的权利讨论。",
+        "startMs": 300,
+        "endMs": 4620,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2",
+          "run-0-c3",
+          "run-0-c4"
+        ]
+      },
+      {
+        "text": "人们记住的，是统治者也必须受到法律约束这个象征。",
+        "startMs": 5000,
+        "endMs": 9200,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7"
+        ]
+      },
+      {
+        "text": "1964年，曼德拉在法庭上也提到了它。",
+        "startMs": 9680,
+        "endMs": 12860,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c8",
+          "run-0-c9"
+        ]
+      },
+      {
+        "text": "但这不代表1215年已经写好了现代平等的全部答案。",
+        "startMs": 13140,
+        "endMs": 16540,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12"
+        ]
+      },
+      {
+        "text": "后人把旧文本带进新的斗争，也赋予了它新的意义。",
+        "startMs": 16860,
+        "endMs": 20520,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c13",
+          "run-0-c14",
+          "run-0-c15",
+          "run-0-c16"
+        ]
+      }
+    ],
+    "voice-meaning": [
+      {
+        "text": "所以，大宪章为什么重要？",
+        "startMs": 320,
+        "endMs": 2300,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c1",
+          "run-0-c2"
+        ]
+      },
+      {
+        "text": "不只是因为1215年发生了一次用印。",
+        "startMs": 2560,
+        "endMs": 5000,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c3"
+        ]
+      },
+      {
+        "text": "更因为失败之后，它又被删改、重颁、确认，并在新的时代被重新解释。",
+        "startMs": 5400,
+        "endMs": 12440,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c4",
+          "run-0-c5",
+          "run-0-c6",
+          "run-0-c7",
+          "run-0-c8",
+          "run-0-c9"
+        ]
+      },
+      {
+        "text": "记住它的贡献，也记住它的边界。",
+        "startMs": 12940,
+        "endMs": 15060,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c10",
+          "run-0-c11",
+          "run-0-c12",
+          "run-0-c13"
+        ]
+      },
+      {
+        "text": "最后留下的那个问题，直到今天仍值得思考：掌权者作了承诺，谁能让承诺真正算数？",
+        "startMs": 15420,
+        "endMs": 22880,
+        "timingKind": "observed",
+        "sourceCueIds": [
+          "run-0-c14",
+          "run-0-c15",
+          "run-0-c16",
+          "run-0-c17",
+          "run-0-c18"
+        ]
+      }
+    ]
+  }
+}

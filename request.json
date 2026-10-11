@@ -1,0 +1,5050 @@
+{
+  "parameterOrigin": "reconstructed_design",
+  "intent": "script_redesign",
+  "output": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080
+  },
+  "style": {
+    "motif": "charter",
+    "rationale": "文书实物与后世画像建立中世纪材料语境；双线页框、文书图版、执行条款的撤回及重颁，区分1215协议与后来文本。 卡片采用分层纸面、细内线、字重层级；朱色角饰为现代解释设计，不仿造历史印章。",
+    "background": "#eee4ce",
+    "ink": "#332b22",
+    "accent": "#985537",
+    "secondary": "#74664e",
+    "card": {
+      "fill": "#faf3df",
+      "ink": "#332b22",
+      "muted": "#74664e",
+      "edge": "#8e7757",
+      "rule": "#c8b99a",
+      "shadow": "#d2c3a6"
+    },
+    "typography": {
+      "heading": 650,
+      "body": 450,
+      "label": 550
+    }
+  },
+  "frames": 12148,
+  "shots": [
+    {
+      "id": "realm-1",
+      "nodeId": "realm",
+      "durationFrames": 180,
+      "startFrame": 0,
+      "endFrame": 180,
+      "purpose": "先看王权所在的世界：家族与土地",
+      "narration": [
+        "讲大宪章，先别急着看那张羊皮纸。约翰是英格兰国王，家族却还在法国拥有大片领地。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "英格兰王位",
+            "detail": "约翰于1199年继位",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "大陆领地",
+            "detail": "王朝权力跨越海峡",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "realm-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "家族与土地",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "origins",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-john-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "约翰后世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.375,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 7.5,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-realm",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-450c03cc4beddbe6dc8a13a9ef16a95e1ad03de82f2057c975099a23c46bc16c/result.json",
+          "sha256": "eab6baed7e9e7aca11e9e73efaa2c55131e309ae90452e0cf96b10bba2bea56e"
+        }
+      }
+    },
+    {
+      "id": "realm-2",
+      "nodeId": "realm",
+      "durationFrames": 390,
+      "startFrame": 180,
+      "endFrame": 570,
+      "purpose": "先看王权所在的世界：政策与负担",
+      "narration": [
+        "1204年，他丢掉了诺曼底等重要地区。他想夺回来，就得筹钱打仗。海峡另一边的战争，逐渐变成了英格兰贵族身上的负担。大宪章的起点，是这一场越来越难维持的权力与财政关系。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1204年失地",
+            "detail": "诺曼底等领地丧失",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "夺回领地",
+            "detail": "需要军队和金钱",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "realm-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "政策与负担",
+            "semantics": "sequence",
+            "sourceIds": [
+              "origins",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-john-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "约翰后世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 7.3125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 16.25,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-realm",
+        "startCueId": "run-0-c6",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-450c03cc4beddbe6dc8a13a9ef16a95e1ad03de82f2057c975099a23c46bc16c/result.json",
+          "sha256": "eab6baed7e9e7aca11e9e73efaa2c55131e309ae90452e0cf96b10bba2bea56e"
+        }
+      }
+    },
+    {
+      "id": "money-1",
+      "nodeId": "money",
+      "durationFrames": 234,
+      "startFrame": 570,
+      "endFrame": 804,
+      "purpose": "战争怎样变成日常负担：财政关系",
+      "narration": [
+        "国王需要的钱，要从哪里来？贵族可以交钱代替出兵，继承、婚姻和监护也可能产生付款义务。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "军事服务",
+            "detail": "贵族的既有义务",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "代役金等",
+            "detail": "战争筹款的渠道",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "money-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "财政关系",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-tna-preparation",
+              "origins",
+              "c12"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.3875,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 9.75,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-money",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-76f5f27d7fb44e270637822214670f57e565f7a39c299646f23eca0eafb5874e/result.json",
+          "sha256": "c4c2140b2d02d2940ebe2e18c6a36ecbee302a7cdb01b104f544e1ad03b31114"
+        }
+      }
+    },
+    {
+      "id": "money-2",
+      "nodeId": "money",
+      "durationFrames": 398,
+      "startFrame": 804,
+      "endFrame": 1202,
+      "purpose": "战争怎样变成日常负担：不满的汇集",
+      "narration": [
+        "问题是，这些要求越来越重，战争又没有带来预期回报。贵族担心的不只是口袋里的钱，还有家产和地位会不会被王权随意处置。所以，他们要的是把国王也约束在可辨认的规则里。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "家产与地位",
+            "detail": "继承、监护、婚姻",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "要求守规则",
+            "detail": "反对权力滥用",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "money-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "不满的汇集",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-tna-preparation",
+              "origins",
+              "c12"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 7.4624999999999995,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 16.583333333333332,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-money",
+        "startCueId": "run-0-c6",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-76f5f27d7fb44e270637822214670f57e565f7a39c299646f23eca0eafb5874e/result.json",
+          "sha256": "c4c2140b2d02d2940ebe2e18c6a36ecbee302a7cdb01b104f544e1ad03b31114"
+        }
+      }
+    },
+    {
+      "id": "church-1",
+      "nodeId": "church",
+      "durationFrames": 183,
+      "startFrame": 1202,
+      "endFrame": 1385,
+      "purpose": "教会也是政治力量：教会权利",
+      "narration": [
+        "桌边还有一股重要力量：教会。兰顿大主教参与协商，教会自身的自由也写进了宪章。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "兰顿与教会",
+            "detail": "参与当地协商",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "宪章承诺",
+            "detail": "维护教会自由",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "church-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "教会权利",
+            "semantics": "recognition",
+            "sourceIds": [
+              "overview",
+              "contents",
+              "later-parliament-booklet"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-langton-seal-birch-1887",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "兰顿印玺，1887年目录图版。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.43125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 7.625,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-church",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-3f704e07105fce1fe4f9530907c4a038708fb4052dda2431348baded2aa4b0ef/result.json",
+          "sha256": "6d5c557180ed0ac8879f1f60ab9868eb288ae56332f4da1626b2d3c9019e4d90"
+        }
+      }
+    },
+    {
+      "id": "church-2",
+      "nodeId": "church",
+      "durationFrames": 342,
+      "startFrame": 1385,
+      "endFrame": 1727,
+      "purpose": "教会也是政治力量：政治位置不同",
+      "narration": [
+        "但本地大主教和罗马教皇，并不总是站在同一位置。后来，约翰正是借助教皇的支持，推翻了这次安排。记住这个区别，我们才看得懂：看似达成的和平，为什么很快又散了。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "兰顿大主教",
+            "detail": "本地协商角色",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "罗马教皇",
+            "detail": "后来支持约翰",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "church-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "政治位置不同",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "overview",
+              "contents",
+              "later-parliament-booklet"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-langton-seal-birch-1887",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "兰顿印玺，1887年目录图版。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 6.4125000000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 14.25,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-church",
+        "startCueId": "run-0-c6-p1",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-3f704e07105fce1fe4f9530907c4a038708fb4052dda2431348baded2aa4b0ef/result.json",
+          "sha256": "6d5c557180ed0ac8879f1f60ab9868eb288ae56332f4da1626b2d3c9019e4d90"
+        }
+      }
+    },
+    {
+      "id": "bouvines-1",
+      "nodeId": "bouvines",
+      "durationFrames": 223,
+      "startFrame": 1727,
+      "endFrame": 1950,
+      "purpose": "失败让讨价还价变了形：分清地点",
+      "narration": [
+        "1214年，约翰的夺地计划受到重创。布汶战役中，他的盟军败了；约翰本人在另一处，不能说他亲自在布汶战败。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "布汶联军",
+            "detail": "1214年7月战败",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "约翰本人",
+            "detail": "在法国西南部",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "bouvines-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "分清地点",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "itinerary",
+              "origins",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.1812499999999995,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 9.291666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-bouvines",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-fd3708556770ff1272a4b586c0f43f487121fe56f5877eb3fb487b16c36f74c0/result.json",
+          "sha256": "c9521717e2f81118df42b591d3533f82a09600b718dd55a966a1f5eb5be083c4"
+        }
+      }
+    },
+    {
+      "id": "bouvines-2",
+      "nodeId": "bouvines",
+      "durationFrames": 195,
+      "startFrame": 1950,
+      "endFrame": 2145,
+      "purpose": "失败让讨价还价变了形：危机累积",
+      "narration": [
+        "军事失败没有消除筹款压力，反而让旧怨集中爆发。到了1215年春，反叛贵族控制了伦敦。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "战争与筹款",
+            "detail": "失败没有消除负担",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "贵族反叛",
+            "detail": "旧怨集中爆发",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "bouvines-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "危机累积",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "itinerary",
+              "origins",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-john-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "约翰后世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.65625,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 8.125,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-bouvines",
+        "startCueId": "run-0-c8",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-fd3708556770ff1272a4b586c0f43f487121fe56f5877eb3fb487b16c36f74c0/result.json",
+          "sha256": "c9521717e2f81118df42b591d3533f82a09600b718dd55a966a1f5eb5be083c4"
+        }
+      }
+    },
+    {
+      "id": "bouvines-3",
+      "nodeId": "bouvines",
+      "durationFrames": 156,
+      "startFrame": 2145,
+      "endFrame": 2301,
+      "purpose": "失败让讨价还价变了形：武力与谈判",
+      "narration": [
+        "双方手里都有武力，谁也不容易压倒谁，谈判就这样被推到了眼前。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "反叛贵族",
+            "detail": "控制伦敦",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "约翰国王",
+            "detail": "仍拥有支持者",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "bouvines-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "武力与谈判",
+            "semantics": "conflict",
+            "sourceIds": [
+              "itinerary",
+              "origins",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-john-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "约翰后世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 2.9250000000000003,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 6.5,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-bouvines",
+        "startCueId": "run-0-c12",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-fd3708556770ff1272a4b586c0f43f487121fe56f5877eb3fb487b16c36f74c0/result.json",
+          "sha256": "c9521717e2f81118df42b591d3533f82a09600b718dd55a966a1f5eb5be083c4"
+        }
+      }
+    },
+    {
+      "id": "runnymede-1",
+      "nodeId": "runnymede",
+      "durationFrames": 276,
+      "startFrame": 2301,
+      "endFrame": 2577,
+      "purpose": "兰尼米德不是现代制宪大会：谈判中的目标",
+      "narration": [
+        "1215年6月15日，双方在兰尼米德达成协议。先把它想成一份要止住内战的和约：约翰希望恢复服从，贵族要求把王权的边界写下来。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "约翰国王",
+            "detail": "希望恢复服从",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "反叛贵族",
+            "detail": "要求限制王权",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "runnymede-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "谈判中的目标",
+            "semantics": "conflict",
+            "sourceIds": [
+              "overview",
+              "origins"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-cotton-1215",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1215年存世文书，非签字现场。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.175,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.5,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-runnymede",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-a9b26a90e052944d3136d02e2e4a1296aa04289afde525d13749961f5fdd716f/result.json",
+          "sha256": "d0ce5b69521f95291a629a77d64a7b525733d463ae3e9faef4de4577b4d549c3"
+        }
+      }
+    },
+    {
+      "id": "runnymede-2",
+      "nodeId": "runnymede",
+      "durationFrames": 266,
+      "startFrame": 2577,
+      "endFrame": 2843,
+      "purpose": "兰尼米德不是现代制宪大会：意义逐渐变化",
+      "narration": [
+        "它很重要，却没有一夜之间建立现代民主。真正有意思的地方是，这场和平很快失败了，文书中的一些承诺却活了下来。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1215年和约",
+            "detail": "试图结束危机",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "后来的象征",
+            "detail": "来自后续历史",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "runnymede-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "意义逐渐变化",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "overview",
+              "origins"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-cotton-1215",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1215年存世文书，非签字现场。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.987500000000001,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.083333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-runnymede",
+        "startCueId": "run-0-c8",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-a9b26a90e052944d3136d02e2e4a1296aa04289afde525d13749961f5fdd716f/result.json",
+          "sha256": "d0ce5b69521f95291a629a77d64a7b525733d463ae3e9faef4de4577b4d549c3"
+        }
+      }
+    },
+    {
+      "id": "seal-1",
+      "nodeId": "seal",
+      "durationFrames": 208,
+      "startFrame": 2843,
+      "endFrame": 3051,
+      "purpose": "是用印确认，不是国王签名：区分认证方式",
+      "narration": [
+        "还有一个常见画面要改一改：约翰并不是像今天签合同那样，在宪章末尾签下姓名。王室文书靠大印认证。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "大印认证",
+            "detail": "王室文书程序",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "亲笔签名",
+            "detail": "不能据此想象",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "seal-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "区分认证方式",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "overview",
+              "contents"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-cotton-1215",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1215年存世文书，非签字现场。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.9,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 8.666666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-seal",
+        "origin": "planned_text_proportion_with_actual_audio_duration",
+        "failureReceipt": {
+          "path": "audio/subtitles-32633cda33d9d72383a40bbf935d35e0df50d33c9551afaab7d4805ee0724b1a/receipt.json",
+          "sha256": "70aa83bd8d43418d25ca0edce0651fdf7a1f69d3105ed7a43b42283b76178572"
+        },
+        "actualListeningPerformed": false
+      }
+    },
+    {
+      "id": "seal-2",
+      "nodeId": "seal",
+      "durationFrames": 310,
+      "startFrame": 3051,
+      "endFrame": 3361,
+      "purpose": "是用印确认，不是国王签名：材料与说明",
+      "narration": [
+        "拉丁文文本随后被制作、传播。我们展示的羊皮纸，是理解当时承诺的材料；旁边的中文卡片和连线，则是今天为你整理的说明。两者不能混为一谈。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "拉丁文书",
+            "detail": "当年制成的文本",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "中文图解",
+            "detail": "今天的解释设计",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "seal-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "材料与说明",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "overview",
+              "contents"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-cotton-1215",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1215年存世文书，非签字现场。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.8125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 12.916666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-seal",
+        "origin": "planned_text_proportion_with_actual_audio_duration",
+        "failureReceipt": {
+          "path": "audio/subtitles-32633cda33d9d72383a40bbf935d35e0df50d33c9551afaab7d4805ee0724b1a/receipt.json",
+          "sha256": "70aa83bd8d43418d25ca0edce0651fdf7a1f69d3105ed7a43b42283b76178572"
+        },
+        "actualListeningPerformed": false
+      }
+    },
+    {
+      "id": "bargain-1",
+      "nodeId": "bargain",
+      "durationFrames": 274,
+      "startFrame": 3361,
+      "endFrame": 3635,
+      "purpose": "一份文书装着许多具体争端：具体争端",
+      "narration": [
+        "打开宪章，你会发现它谈的事情非常具体：继承、债务、婚姻、城市权利，还有森林制度。后世著名的大原则，最初往往藏在这些现实争端里。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "钱与土地",
+            "detail": "继承、债务、监护",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "权利与司法",
+            "detail": "城市、商业与诉讼",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "bargain-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "具体争端",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "contents",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.1375,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.416666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-bargain",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-10c31eb7d9bd8266d1410c3392065e65a3dce61eb4ac8387582c99db0415bfb3/result.json",
+          "sha256": "6e08636d099628247972e77258df62145fcf15f7f4fa155f169cd286a13d71e1"
+        }
+      }
+    },
+    {
+      "id": "bargain-2",
+      "nodeId": "bargain",
+      "durationFrames": 266,
+      "startFrame": 3635,
+      "endFrame": 3901,
+      "purpose": "一份文书装着许多具体争端：阅读条款的线索",
+      "narration": [
+        "接下来，我们抓住四个问题：国王怎样要钱，司法怎样约束权力，承诺保护谁，以及违约后谁来执行。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "承诺什么",
+            "detail": "税收与司法",
+            "position": [
+              0.2,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "保护谁",
+            "detail": "社会身份边界",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-2",
+            "label": "谁来执行",
+            "detail": "保障机制",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "bargain-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "阅读条款的线索",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "contents",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.35,
+              0.23
+            ]
+          },
+          {
+            "id": "bargain-link-1",
+            "from": "card-1",
+            "to": "card-2",
+            "label": "阅读条款的线索",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "contents",
+              "later-tna-preparation"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.22999999999999998,
+              0.45
+            ],
+            "laneY": 0.61,
+            "labelPosition": [
+              0.65,
+              0.61
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.987500000000001,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.083333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-bargain",
+        "startCueId": "run-0-c10",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-10c31eb7d9bd8266d1410c3392065e65a3dce61eb4ac8387582c99db0415bfb3/result.json",
+          "sha256": "6e08636d099628247972e77258df62145fcf15f7f4fa155f169cd286a13d71e1"
+        }
+      }
+    },
+    {
+      "id": "tax-1",
+      "nodeId": "tax",
+      "durationFrames": 200,
+      "startFrame": 3901,
+      "endFrame": 4101,
+      "purpose": "征钱要协商，但谁能参与？：第12条",
+      "narration": [
+        "先看钱。第12条要求，征收某些兵役代役金和援助金，应当经过共同协商；它也保留了几类例外。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "国王筹款",
+            "detail": "代役金与援助金",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "共同协商",
+            "detail": "条款亦保留例外",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "tax-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "第12条",
+            "semantics": "recognition",
+            "sourceIds": [
+              "c12",
+              "c14",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.7500000000000004,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 8.333333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-tax",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-4ebc3d6fcbbcdc9b5a69ecb5695814200284a0dbbb902892c894c6c06722576a/result.json",
+          "sha256": "fa74b66e690c72f726010f615d373817213c0826a7120fcffdf6ee3e49c81e11"
+        }
+      }
+    },
+    {
+      "id": "tax-2",
+      "nodeId": "tax",
+      "durationFrames": 29,
+      "startFrame": 4101,
+      "endFrame": 4130,
+      "purpose": "征钱要协商，但谁能参与？：第14条",
+      "narration": [
+        "那谁来协商呢？"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "教会领袖",
+            "detail": "主教与修道院长",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "贵族与封臣",
+            "detail": "依据土地和身份",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "tax-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "第14条",
+            "semantics": "recognition",
+            "sourceIds": [
+              "c12",
+              "c14",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 0.54375,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 1.2083333333333333,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-tax",
+        "startCueId": "run-0-c4",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-4ebc3d6fcbbcdc9b5a69ecb5695814200284a0dbbb902892c894c6c06722576a/result.json",
+          "sha256": "fa74b66e690c72f726010f615d373817213c0826a7120fcffdf6ee3e49c81e11"
+        }
+      }
+    },
+    {
+      "id": "tax-3",
+      "nodeId": "tax",
+      "durationFrames": 267,
+      "startFrame": 4130,
+      "endFrame": 4397,
+      "purpose": "征钱要协商，但谁能参与？：制度尚有距离",
+      "narration": [
+        "主要是教会领袖、贵族和直接从国王那里领地的人。这里已经出现了征钱需要同意的要求，但距离一人一票、议会代表全体居民，还很远。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1215年协商",
+            "detail": "有身份门槛",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "现代普选",
+            "detail": "不能倒写入原文",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "tax-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "制度尚有距离",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "c12",
+              "c14",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.0062500000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.125,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-tax",
+        "startCueId": "run-0-c5",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-4ebc3d6fcbbcdc9b5a69ecb5695814200284a0dbbb902892c894c6c06722576a/result.json",
+          "sha256": "fa74b66e690c72f726010f615d373817213c0826a7120fcffdf6ee3e49c81e11"
+        }
+      }
+    },
+    {
+      "id": "justice-1",
+      "nodeId": "justice",
+      "durationFrames": 185,
+      "startFrame": 4397,
+      "endFrame": 4582,
+      "purpose": "第39与40条为什么被反复引用：司法承诺",
+      "narration": [
+        "最有名的是第39和第40条。国王不能任意拘捕、剥夺财产，也不能出卖、拒绝或拖延司法。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "第39条",
+            "detail": "限制任意强制",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "第40条",
+            "detail": "不卖、不拒、不拖",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "justice-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "司法承诺",
+            "semantics": "recognition",
+            "sourceIds": [
+              "c39",
+              "c40",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.46875,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 7.708333333333333,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-justice",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-a1c201844e9d529fa9dbde4191abc8bc8dd14cf8b3799ed3333c9c50c86c26a9/result.json",
+          "sha256": "13714f77d422e6fc3154d71ca578be362f5558365fc85e67000dd24b523f492b"
+        }
+      }
+    },
+    {
+      "id": "justice-2",
+      "nodeId": "justice",
+      "durationFrames": 359,
+      "startFrame": 4582,
+      "endFrame": 4941,
+      "purpose": "第39与40条为什么被反复引用：不等同现代制度",
+      "narration": [
+        "不过，原文说的自由人和同等身份者，都带着中世纪的含义，不能直接换成今天人人平等的公民和现代陪审团。后世从这些话里发展出更广的原则，那是一段继续发生的历史。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "中世纪身份",
+            "detail": "自由人与同等者",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "后来的发展",
+            "detail": "更广的程序保障",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "justice-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "不等同现代制度",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "c39",
+              "c40",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 6.73125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 14.958333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-justice",
+        "startCueId": "run-0-c7",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-a1c201844e9d529fa9dbde4191abc8bc8dd14cf8b3799ed3333c9c50c86c26a9/result.json",
+          "sha256": "13714f77d422e6fc3154d71ca578be362f5558365fc85e67000dd24b523f492b"
+        }
+      }
+    },
+    {
+      "id": "scope-1",
+      "nodeId": "scope",
+      "durationFrames": 127,
+      "startFrame": 4941,
+      "endFrame": 5068,
+      "purpose": "有人得到保护，仍有人被排除：具体保护",
+      "narration": [
+        "那么，它只保护贵族吗？也不完全是。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "城市与商人",
+            "detail": "条款涉及不同群体",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "自由土地持有者",
+            "detail": "不只是大贵族",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "scope-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "具体保护",
+            "semantics": "recognition",
+            "sourceIds": [
+              "c7",
+              "c8",
+              "contents",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 2.38125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 5.291666666666667,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-scope",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-794fc6f37f4dd53d8e7e85e07a208560c5c7c5df6e23f9ec38f3098c47e6d5fe/result.json",
+          "sha256": "af0c6616c78bbf60f2b12c8b5d2bbefdb104aef9f935f662c6b45b6892ef6179"
+        }
+      }
+    },
+    {
+      "id": "scope-2",
+      "nodeId": "scope",
+      "durationFrames": 197,
+      "startFrame": 5068,
+      "endFrame": 5265,
+      "purpose": "有人得到保护，仍有人被排除：第7、8条",
+      "narration": [
+        "城市、商人和一些自由土地持有者的利益，都出现在条文里。寡妇也得到部分财产和再婚意愿的保护。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "寡妇的权益",
+            "detail": "财产及再婚意愿",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "仍有限制",
+            "detail": "领主同意等条件",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "scope-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "第7、8条",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "c7",
+              "c8",
+              "contents",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.6937500000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 8.208333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-scope",
+        "startCueId": "run-0-c4",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-794fc6f37f4dd53d8e7e85e07a208560c5c7c5df6e23f9ec38f3098c47e6d5fe/result.json",
+          "sha256": "af0c6616c78bbf60f2b12c8b5d2bbefdb104aef9f935f662c6b45b6892ef6179"
+        }
+      }
+    },
+    {
+      "id": "scope-3",
+      "nodeId": "scope",
+      "durationFrames": 283,
+      "startFrame": 5265,
+      "endFrame": 5548,
+      "purpose": "有人得到保护，仍有人被排除：同时看见两面",
+      "narration": [
+        "但大量非自由农民没有同等地位，女性的选择仍受领主权力限制。看这份文书，要同时看到它减少了哪些侵害，又保留了哪些不平等。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "部分侵害减少",
+            "detail": "真实的历史变化",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "身份差别保留",
+            "detail": "尚非普遍平等",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "scope-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "同时看见两面",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "c7",
+              "c8",
+              "contents",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.3062499999999995,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.791666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-scope",
+        "startCueId": "run-0-c8",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-794fc6f37f4dd53d8e7e85e07a208560c5c7c5df6e23f9ec38f3098c47e6d5fe/result.json",
+          "sha256": "af0c6616c78bbf60f2b12c8b5d2bbefdb104aef9f935f662c6b45b6892ef6179"
+        }
+      }
+    },
+    {
+      "id": "security-1",
+      "nodeId": "security",
+      "durationFrames": 79,
+      "startFrame": 5548,
+      "endFrame": 5627,
+      "purpose": "最难的问题：谁让国王守约？：文书规定",
+      "narration": [
+        "承诺写下来了，谁来保证国王照做？"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "发现违约",
+            "detail": "保障贵族提出",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "40天纠正期",
+            "detail": "先要求补救",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "security-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "文书规定",
+            "semantics": "sequence",
+            "sourceIds": [
+              "c61",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 1.48125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 3.2916666666666665,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-security",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-37044233e314bcfce1fb8a7dea4185f728c7ef051058af99a43160d7edaa7844/result.json",
+          "sha256": "c857c0babecd7894016203c365753afd3586cf646dd0cef923dbf0a33755a7c5"
+        }
+      }
+    },
+    {
+      "id": "security-2",
+      "nodeId": "security",
+      "durationFrames": 262,
+      "startFrame": 5627,
+      "endFrame": 5889,
+      "purpose": "最难的问题：谁让国王守约？：第61条安排",
+      "narration": [
+        "保障条款交给25名贵族一项特殊权力：先提出违约，给国王40天纠正；如果仍不补救，就可以扣押城堡、土地和财产。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "仍未纠正",
+            "detail": "程序中的条件",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "强制补救",
+            "detail": "扣押城堡与财产",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "security-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "第61条安排",
+            "semantics": "sequence",
+            "sourceIds": [
+              "c61",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.9125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 10.916666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-security",
+        "startCueId": "run-0-c3",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-37044233e314bcfce1fb8a7dea4185f728c7ef051058af99a43160d7edaa7844/result.json",
+          "sha256": "c857c0babecd7894016203c365753afd3586cf646dd0cef923dbf0a33755a7c5"
+        }
+      }
+    },
+    {
+      "id": "security-3",
+      "nodeId": "security",
+      "durationFrames": 267,
+      "startFrame": 5889,
+      "endFrame": 6156,
+      "purpose": "最难的问题：谁让国王守约？：两者不能等同",
+      "narration": [
+        "这个设计很强硬，也很脆弱。执行靠的还是贵族的力量，而不是一个稳定的独立裁判机构。写进文书，和真正执行，是两回事。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "纸上承诺",
+            "detail": "写下保障机制",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "现实执行",
+            "detail": "仍靠贵族力量",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "security-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "两者不能等同",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "c61",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.0062500000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.125,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-security",
+        "startCueId": "run-0-c9",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-37044233e314bcfce1fb8a7dea4185f728c7ef051058af99a43160d7edaa7844/result.json",
+          "sha256": "c857c0babecd7894016203c365753afd3586cf646dd0cef923dbf0a33755a7c5"
+        }
+      }
+    },
+    {
+      "id": "annulment-1",
+      "nodeId": "annulment",
+      "durationFrames": 182,
+      "startFrame": 6156,
+      "endFrame": 6338,
+      "purpose": "教皇宣布宪章无效：协议被推翻",
+      "narration": [
+        "和平没有维持多久。1215年8月，约翰得到教皇的支持，教皇宣布宪章无效。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "约翰求援",
+            "detail": "寻求教皇支持",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "教皇宣布无效",
+            "detail": "1215年8月",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "annulment-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "协议被推翻",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-tna-timeline",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.4125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 7.583333333333333,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-annulment",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-0d145e21eef6bcc970f910c769c9736bf834582728d211a475ad499367af126e/result.json",
+          "sha256": "3fca37ba9b78d842f3e5533b24e3e72594f392e4470e8f23506c6cc6351cbde5"
+        }
+      }
+    },
+    {
+      "id": "annulment-2",
+      "nodeId": "annulment",
+      "durationFrames": 304,
+      "startFrame": 6338,
+      "endFrame": 6642,
+      "purpose": "教皇宣布宪章无效：和平破裂",
+      "narration": [
+        "这里不是约翰一个人把纸撕掉那么简单：教皇的权威，给了他反对协议的重要依据。但贵族的不满不会因此消失。共同的规则没能站稳，双方又回到武力较量。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "贵族不满",
+            "detail": "没有因此消失",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "继续用武",
+            "detail": "共同规则未站稳",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "annulment-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "和平破裂",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-tna-timeline",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.7,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 12.666666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-annulment",
+        "startCueId": "run-0-c6",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-0d145e21eef6bcc970f910c769c9736bf834582728d211a475ad499367af126e/result.json",
+          "sha256": "3fca37ba9b78d842f3e5533b24e3e72594f392e4470e8f23506c6cc6351cbde5"
+        }
+      }
+    },
+    {
+      "id": "war-1",
+      "nodeId": "war",
+      "durationFrames": 274,
+      "startFrame": 6642,
+      "endFrame": 6916,
+      "purpose": "贵族把法国王子请了进来：争夺英格兰王位",
+      "narration": [
+        "贵族还做了一个今天听来意外的选择：邀请法国王子路易来争夺王位。1216年，他带兵抵达，在伦敦被拥立，却没有加冕。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "反叛贵族",
+            "detail": "邀请另一位王室成员",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "法国王子路易",
+            "detail": "1216年带兵抵达",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "war-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "争夺英格兰王位",
+            "semantics": "recognition",
+            "sourceIds": [
+              "later-eh-dover",
+              "later-tna-timeline",
+              "origins"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.1375,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.416666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-war",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-230d80fcf8200fa6e1ba880e8a5b4741230df7841db177c4b4ee4c5c5fe3172d/result.json",
+          "sha256": "5f88e6b1eb56c12a10861596d25ebcb2ad2aa4c8c60f94496006bb238aa534ad"
+        }
+      }
+    },
+    {
+      "id": "war-2",
+      "nodeId": "war",
+      "durationFrames": 79,
+      "startFrame": 6916,
+      "endFrame": 6995,
+      "purpose": "贵族把法国王子请了进来：政治选择",
+      "narration": [
+        "反对约翰，并不等于反对君主制。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "反对约翰",
+            "detail": "拒绝这位统治者",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "支持路易",
+            "detail": "仍接受君主统治",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "war-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "政治选择",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-eh-dover",
+              "later-tna-timeline",
+              "origins"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 1.48125,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 3.2916666666666665,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-war",
+        "startCueId": "run-0-c7",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-230d80fcf8200fa6e1ba880e8a5b4741230df7841db177c4b4ee4c5c5fe3172d/result.json",
+          "sha256": "5f88e6b1eb56c12a10861596d25ebcb2ad2aa4c8c60f94496006bb238aa534ad"
+        }
+      }
+    },
+    {
+      "id": "war-3",
+      "nodeId": "war",
+      "durationFrames": 253,
+      "startFrame": 6995,
+      "endFrame": 7248,
+      "purpose": "贵族把法国王子请了进来：战争的转折",
+      "narration": [
+        "战争一直拖到1217年，林肯和桑威奇的失利，才让路易阵营走向和解。宪章的命运，始终与力量的变化绑在一起。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "林肯与桑威奇",
+            "detail": "1217年军事失利",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "和解",
+            "detail": "路易退出争夺",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "war-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "战争的转折",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-eh-dover",
+              "later-tna-timeline",
+              "origins"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.7437499999999995,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 10.541666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-war",
+        "startCueId": "run-0-c8",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-230d80fcf8200fa6e1ba880e8a5b4741230df7841db177c4b4ee4c5c5fe3172d/result.json",
+          "sha256": "5f88e6b1eb56c12a10861596d25ebcb2ad2aa4c8c60f94496006bb238aa534ad"
+        }
+      }
+    },
+    {
+      "id": "john-death-1",
+      "nodeId": "john-death",
+      "durationFrames": 193,
+      "startFrame": 7248,
+      "endFrame": 7441,
+      "purpose": "约翰死了，争端没有立刻结束：王位更替",
+      "narration": [
+        "1216年10月，约翰去世，九岁的亨利三世继位。战争并没有马上结束，但政治局面变了。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "约翰去世",
+            "detail": "1216年10月",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "亨利三世",
+            "detail": "九岁的继承人",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "john-death-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "王位更替",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-tna-timeline",
+              "later-eh-dover",
+              "later-durham-charters"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-henry-iii-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "亨利三世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.61875,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 8.041666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-john-death",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-eef2cf2a11961d60cffbd1b1b77627e4419dc5cb5c9e4c81252386a0766f3f75/result.json",
+          "sha256": "974bb694c4b5c88b1185cf4f2f77c853a6f789de542f7c1010c54eb26c86c3ed"
+        }
+      }
+    },
+    {
+      "id": "john-death-2",
+      "nodeId": "john-death",
+      "durationFrames": 327,
+      "startFrame": 7441,
+      "endFrame": 7768,
+      "purpose": "约翰死了，争端没有立刻结束：新的政治机会",
+      "narration": [
+        "原先反对约翰的贵族，现在可以转而接受这个孩子。摄政政府抓住机会：重新承诺一些自由，争取支持。于是，原本限制国王的宪章，也成了王室重新站稳的工具。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "摄政政府",
+            "detail": "重新确认部分自由",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "争取归附",
+            "detail": "恢复王室支持",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "john-death-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "新的政治机会",
+            "semantics": "recognition",
+            "sourceIds": [
+              "later-tna-timeline",
+              "later-eh-dover",
+              "later-durham-charters"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-henry-iii-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "亨利三世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 6.1312500000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 13.625,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-john-death",
+        "startCueId": "run-0-c7",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-eef2cf2a11961d60cffbd1b1b77627e4419dc5cb5c9e4c81252386a0766f3f75/result.json",
+          "sha256": "974bb694c4b5c88b1185cf4f2f77c853a6f789de542f7c1010c54eb26c86c3ed"
+        }
+      }
+    },
+    {
+      "id": "reissue-1216-1",
+      "nodeId": "reissue-1216",
+      "durationFrames": 204,
+      "startFrame": 7768,
+      "endFrame": 7972,
+      "purpose": "1216年：删改之后重新颁布：重新颁布",
+      "narration": [
+        "1216年11月，宪章第一次重新颁布。幼王还没有自己的大印，摄政者和教皇使节用印认证。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1216年重颁",
+            "detail": "摄政者与使节用印",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "幼王政府",
+            "detail": "争取支持",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "reissue-1216-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "重新颁布",
+            "semantics": "recognition",
+            "sourceIds": [
+              "later-tna-timeline",
+              "later-durham-charters",
+              "later-parliament-booklet"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-henry-iii-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "亨利三世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.825,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 8.5,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-reissue-1216",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-5fcdbcf38baf7c2b62c2405d67d4e4b316594331faec693e94be3dd6d1c92d31/result.json",
+          "sha256": "18776d2ee25ea69116f3f583daa5283b6eb3dda7dcccfd57f3bc60668b39ab11"
+        }
+      }
+    },
+    {
+      "id": "reissue-1216-2",
+      "nodeId": "reissue-1216",
+      "durationFrames": 355,
+      "startFrame": 7972,
+      "endFrame": 8327,
+      "purpose": "1216年：删改之后重新颁布：不是原样复印",
+      "narration": [
+        "文本也变了，特别强硬的保障安排被去掉。王室要保留能吸引支持的承诺，同时避免让宪章继续成为对抗王权的工具。文书活下来了，但已经不是原封不动的1215年版本。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "保留部分承诺",
+            "detail": "争取贵族回归",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "删去强硬保障",
+            "detail": "文本发生变化",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "reissue-1216-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "不是原样复印",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-tna-timeline",
+              "later-durham-charters",
+              "later-parliament-booklet"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-henry-iii-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "亨利三世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 6.65625,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 14.791666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-reissue-1216",
+        "startCueId": "run-0-c6",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-5fcdbcf38baf7c2b62c2405d67d4e4b316594331faec693e94be3dd6d1c92d31/result.json",
+          "sha256": "18776d2ee25ea69116f3f583daa5283b6eb3dda7dcccfd57f3bc60668b39ab11"
+        }
+      }
+    },
+    {
+      "id": "reissue-1217-1",
+      "nodeId": "reissue-1217",
+      "durationFrames": 227,
+      "startFrame": 8327,
+      "endFrame": 8554,
+      "purpose": "1217年：在战争结束后再造秩序：战争后的安排",
+      "narration": [
+        "到了1217年，战争终于走向和解，宪章再次重颁。它现在承担的新任务，是让一个刚经历内战的王国重新合作。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1217年和解",
+            "detail": "王位战争结束",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "再次重颁",
+            "detail": "恢复共同秩序",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "reissue-1217-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "战争后的安排",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-tna-timeline",
+              "later-durham-charters",
+              "later-eh-dover"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-henry-iii-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "亨利三世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.2562500000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 9.458333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-reissue-1217",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-57410624097439bd47d17298d8d35ee5d90c325b6a415618a079ac0c234b4f25/result.json",
+          "sha256": "c110ad56562ee7ae85bace7ba6646dde9061265c842b917f5d1459a67505923a"
+        }
+      }
+    },
+    {
+      "id": "reissue-1217-2",
+      "nodeId": "reissue-1217",
+      "durationFrames": 300,
+      "startFrame": 8554,
+      "endFrame": 8854,
+      "purpose": "1217年：在战争结束后再造秩序：两份文书并行",
+      "narration": [
+        "与此同时，森林事项另立一份宪章。理解这两份文书，我们就能看到：限制权力，既关乎王位和贵族，也关乎土地与日常生活。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "自由宪章",
+            "detail": "王权与义务",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "森林宪章",
+            "detail": "土地与生活资源",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "reissue-1217-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "两份文书并行",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-tna-timeline",
+              "later-durham-charters",
+              "later-eh-dover"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.625,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 12.5,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-reissue-1217",
+        "startCueId": "run-0-c7",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-57410624097439bd47d17298d8d35ee5d90c325b6a415618a079ac0c234b4f25/result.json",
+          "sha256": "c110ad56562ee7ae85bace7ba6646dde9061265c842b917f5d1459a67505923a"
+        }
+      }
+    },
+    {
+      "id": "forest-1",
+      "nodeId": "forest",
+      "durationFrames": 187,
+      "startFrame": 8854,
+      "endFrame": 9041,
+      "purpose": "森林宪章：谁能使用土地与资源：并不等于密林",
+      "narration": [
+        "这里的森林，不一定就是密林。它首先是一片受到王室特别管制的区域，里面还可能有牧地和村庄。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "王家森林",
+            "detail": "特别法律管制区",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "牧地与村落",
+            "detail": "也可能包括在内",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "forest-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "并不等于密林",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-durham-charters",
+              "contents"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 3.50625,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 7.791666666666667,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-forest",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-7f5c6a76d99858ad6f760fb0ae8bf792c7e97049347e775d169cf0cc75ac2190/result.json",
+          "sha256": "cec273c31d0a38b634c5cc6faab7dde3f66e36a4eca1ed33dd0cae0bc60361a0"
+        }
+      }
+    },
+    {
+      "id": "forest-2",
+      "nodeId": "forest",
+      "durationFrames": 133,
+      "startFrame": 9041,
+      "endFrame": 9174,
+      "purpose": "森林宪章：谁能使用土地与资源：日常生活的边界",
+      "narration": [
+        "森林宪章处理这些规则怎样影响人们放牧、取用燃料和使用土地。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "生活资源",
+            "detail": "放牧、燃料、土地",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "森林规则",
+            "detail": "影响广泛群体",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "forest-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "日常生活的边界",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-durham-charters",
+              "contents"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-forest-charter-1225",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1225年森林宪章重颁文本。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 2.4937500000000004,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 5.541666666666667,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-forest",
+        "startCueId": "run-0-c6",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-7f5c6a76d99858ad6f760fb0ae8bf792c7e97049347e775d169cf0cc75ac2190/result.json",
+          "sha256": "cec273c31d0a38b634c5cc6faab7dde3f66e36a4eca1ed33dd0cae0bc60361a0"
+        }
+      }
+    },
+    {
+      "id": "forest-3",
+      "nodeId": "forest",
+      "durationFrames": 233,
+      "startFrame": 9174,
+      "endFrame": 9407,
+      "purpose": "森林宪章：谁能使用土地与资源：日期分别记录",
+      "narration": [
+        "它在1217年独立颁布。画面展示的是1225年重颁文本，日期要分清，不能拿后来的文书冒充最初那一份。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1217年",
+            "detail": "森林宪章首次独立",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "1225年图版",
+            "detail": "本片所示重颁文本",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "forest-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "日期分别记录",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-durham-charters",
+              "contents"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-forest-charter-1225",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1225年森林宪章重颁文本。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.36875,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 9.708333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-forest",
+        "startCueId": "run-0-c9",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-7f5c6a76d99858ad6f760fb0ae8bf792c7e97049347e775d169cf0cc75ac2190/result.json",
+          "sha256": "cec273c31d0a38b634c5cc6faab7dde3f66e36a4eca1ed33dd0cae0bc60361a0"
+        }
+      }
+    },
+    {
+      "id": "reissue-1225-1",
+      "nodeId": "reissue-1225",
+      "durationFrames": 219,
+      "startFrame": 9407,
+      "endFrame": 9626,
+      "purpose": "1225年：承诺与税收交换：这次版本定型",
+      "narration": [
+        "1225年，亨利三世以自己的大印颁布新版本，换取一笔税收。后来长期发挥作用的文本，主要在这时定型。"
+      ],
+      "visual": {
+        "kind": "relations",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "国王自己的大印",
+            "detail": "1225年正式颁布",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "取得税收",
+            "detail": "承诺与资源交换",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "reissue-1225-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "这次版本定型",
+            "semantics": "recognition",
+            "sourceIds": [
+              "later-tna-preparation",
+              "later-parliament-booklet",
+              "later-durham-charters"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-henry-iii-paris",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "亨利三世画像，约1250—1259年。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.10625,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 9.125,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-reissue-1225",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-eb1fb174d1962a4f003b483acac17696ed597ec7be01b3ad0553716191ad03ba/result.json",
+          "sha256": "fb6d3a2175e28aa1b4ec457037df1eea3ebbf399c1a7056e0fd9945b6a65abe3"
+        }
+      }
+    },
+    {
+      "id": "reissue-1225-2",
+      "nodeId": "reissue-1225",
+      "durationFrames": 364,
+      "startFrame": 9626,
+      "endFrame": 9990,
+      "purpose": "1225年：承诺与税收交换：反复出现的交换",
+      "narration": [
+        "它保留许多承诺，也删改了原来的安排。你会发现一条反复出现的线索：国王需要钱，其他人便有机会要求确认权利。宪章的生命，是在这种政治交换中延续的。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "国王需要资源",
+            "detail": "财政是政治条件",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "确认权利",
+            "detail": "支持王权的条件",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "reissue-1225-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "反复出现的交换",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-tna-preparation",
+              "later-parliament-booklet",
+              "later-durham-charters"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 6.825,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 15.166666666666666,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-reissue-1225",
+        "startCueId": "run-0-c8",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-eb1fb174d1962a4f003b483acac17696ed597ec7be01b3ad0553716191ad03ba/result.json",
+          "sha256": "fb6d3a2175e28aa1b4ec457037df1eea3ebbf399c1a7056e0fd9945b6a65abe3"
+        }
+      }
+    },
+    {
+      "id": "statute-1",
+      "nodeId": "statute",
+      "durationFrames": 240,
+      "startFrame": 9990,
+      "endFrame": 10230,
+      "purpose": "1297年：进入官方法律记忆：后续法律地位",
+      "narration": [
+        "再往后看，1297年，爱德华一世确认宪章，修订后的文本进入官方成文法卷。距离最初的协议，已经八十多年了。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1297年确认",
+            "detail": "爱德华一世",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "官方成文法卷",
+            "detail": "记录修订后的文本",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "statute-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "后续法律地位",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-parliament-booklet",
+              "later-lords-note",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-rubenstein-1297-seal",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1297年文书与印玺，非1215年原件。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.5,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 10,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-statute",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-1b603dbd7941cf665601f3ef13b0a553b0b43cc9d373350cf84722e1a54ae4ea/result.json",
+          "sha256": "056356676acaeef6cfe7cde5c9a5cad879afcea2d084145ff91091c289b134b1"
+        }
+      }
+    },
+    {
+      "id": "statute-2",
+      "nodeId": "statute",
+      "durationFrames": 299,
+      "startFrame": 10230,
+      "endFrame": 10529,
+      "purpose": "1297年：进入官方法律记忆：不是互相矛盾",
+      "narration": [
+        "原初和约失败，与后来的文本获得持久地位，并不冲突。正是这些重颁、确认和重新解释，把一场危机里的承诺，变成了可以不断援引的法律资源。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "原初协议失败",
+            "detail": "1215年安排失效",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "修订文本延续",
+            "detail": "重颁、确认、解释",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "statute-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "不是互相矛盾",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-parliament-booklet",
+              "later-lords-note",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-rubenstein-1297-seal",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1297年文书与印玺，非1215年原件。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.60625,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 12.458333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-statute",
+        "startCueId": "run-0-c6",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-1b603dbd7941cf665601f3ef13b0a553b0b43cc9d373350cf84722e1a54ae4ea/result.json",
+          "sha256": "056356676acaeef6cfe7cde5c9a5cad879afcea2d084145ff91091c289b134b1"
+        }
+      }
+    },
+    {
+      "id": "coke-1",
+      "nodeId": "coke",
+      "durationFrames": 282,
+      "startFrame": 10529,
+      "endFrame": 10811,
+      "purpose": "17世纪的人又读出了什么：新的政治环境",
+      "narration": [
+        "到了17世纪，科克和塞尔登等人又拿起大宪章，反对任意拘禁和未经议会同意的征税。1628年的《权利请愿书》，把这些争论推向新的阶段。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "17世纪争论",
+            "detail": "拘禁与征税",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "1628年",
+            "detail": "权利请愿书",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "coke-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "新的政治环境",
+            "semantics": "sequence",
+            "sourceIds": [
+              "later-parliament-booklet",
+              "later-lords-note",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.2875000000000005,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.75,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-coke",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-d6c49824dbbeef3a70f2198be82c50c7373c6d4cfeb14cad629ebbedc70f9646/result.json",
+          "sha256": "59de52ea886460c16adaf5512ae2012aedcc72c5f3f147490e8322eae674a2c7"
+        }
+      }
+    },
+    {
+      "id": "coke-2",
+      "nodeId": "coke",
+      "durationFrames": 248,
+      "startFrame": 10811,
+      "endFrame": 11059,
+      "purpose": "17世纪的人又读出了什么：重新解释",
+      "narration": [
+        "他们不是简单重复中世纪贵族的要求，而是在自己的时代重新解释古老文本。大宪章的影响，正是在这样的引用中不断扩大。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "中世纪文本",
+            "detail": "提供古老权威",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "后世使用者",
+            "detail": "提炼更广原则",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "coke-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "重新解释",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-parliament-booklet",
+              "later-lords-note",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.65,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 10.333333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-coke",
+        "startCueId": "run-0-c9",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-d6c49824dbbeef3a70f2198be82c50c7373c6d4cfeb14cad629ebbedc70f9646/result.json",
+          "sha256": "59de52ea886460c16adaf5512ae2012aedcc72c5f3f147490e8322eae674a2c7"
+        }
+      }
+    },
+    {
+      "id": "symbol-1",
+      "nodeId": "symbol",
+      "durationFrames": 233,
+      "startFrame": 11059,
+      "endFrame": 11292,
+      "purpose": "从具体文书到跨时代象征：影响逐渐扩大",
+      "narration": [
+        "后来，大宪章跨越大西洋，又进入更多地方的权利讨论。人们记住的，是统治者也必须受到法律约束这个象征。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "跨大西洋传播",
+            "detail": "进入权利讨论",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "限制权力的象征",
+            "detail": "超出原初争端",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "symbol-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "影响逐渐扩大",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-parliament-booklet",
+              "later-lords-note",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 4.36875,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 9.708333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-symbol",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-43e9a58ec58299ba808f5169a61d3013b82b4b0bbb9c721b84b06c1f269c633e/result.json",
+          "sha256": "44f2761e428cc74922a67f18a59e95d5d0b01888f94086742467e1bc10c1713e"
+        }
+      }
+    },
+    {
+      "id": "symbol-2",
+      "nodeId": "symbol",
+      "durationFrames": 281,
+      "startFrame": 11292,
+      "endFrame": 11573,
+      "purpose": "从具体文书到跨时代象征：象征被再次使用",
+      "narration": [
+        "1964年，曼德拉在法庭上也提到了它。但这不代表1215年已经写好了现代平等的全部答案。后人把旧文本带进新的斗争，也赋予了它新的意义。"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "1964年曼德拉",
+            "detail": "法庭陈述援引",
+            "position": [
+              0.3,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "新的时代诉求",
+            "detail": "赋予文书新意义",
+            "position": [
+              0.7,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "symbol-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "象征被再次使用",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "later-parliament-booklet",
+              "later-lords-note",
+              "overview"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.5,
+              0.23
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 5.268750000000001,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 11.708333333333334,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-symbol",
+        "startCueId": "run-0-c8",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-43e9a58ec58299ba808f5169a61d3013b82b4b0bbb9c721b84b06c1f269c633e/result.json",
+          "sha256": "44f2761e428cc74922a67f18a59e95d5d0b01888f94086742467e1bc10c1713e"
+        }
+      }
+    },
+    {
+      "id": "meaning-1",
+      "nodeId": "meaning",
+      "durationFrames": 130,
+      "startFrame": 11573,
+      "endFrame": 11703,
+      "purpose": "怎样记住大宪章，才不失真：三个历史层次",
+      "narration": [
+        "所以，大宪章为什么重要？不只是因为1215年发生了一次用印。"
+      ],
+      "visual": {
+        "kind": "sequence",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "失败",
+            "detail": "原初和平破裂",
+            "position": [
+              0.2,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "延续",
+            "detail": "删改、重颁、确认",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-2",
+            "label": "象征",
+            "detail": "后世不断解释",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.25,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "meaning-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "三个历史层次",
+            "semantics": "sequence",
+            "sourceIds": [
+              "overview",
+              "later-parliament-booklet",
+              "c39",
+              "c61"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.35,
+              0.23
+            ]
+          },
+          {
+            "id": "meaning-link-1",
+            "from": "card-1",
+            "to": "card-2",
+            "label": "三个历史层次",
+            "semantics": "sequence",
+            "sourceIds": [
+              "overview",
+              "later-parliament-booklet",
+              "c39",
+              "c61"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.22999999999999998,
+              0.45
+            ],
+            "laneY": 0.61,
+            "labelPosition": [
+              0.65,
+              0.61
+            ]
+          }
+        ],
+        "images": [],
+        "legend": "实线：条文安排、政治关系或先后次序；位置不表示地理。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 2.4375,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 5.416666666666667,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-meaning",
+        "startCueId": "run-0-c1",
+        "origin": "native_audio_segment_start",
+        "rawResult": {
+          "path": "audio/subtitles-1bac46156e2d5e7f28f9889eb711e5bdb35b4c5983df9d6479c86c093f925d9c/result.json",
+          "sha256": "3f182283a7a584fc300ee14f5e2f130d66b572e47b8b8861f6888401de059877"
+        }
+      }
+    },
+    {
+      "id": "meaning-2",
+      "nodeId": "meaning",
+      "durationFrames": 445,
+      "startFrame": 11703,
+      "endFrame": 12148,
+      "purpose": "怎样记住大宪章，才不失真：留给读者的问题",
+      "narration": [
+        "更因为失败之后，它又被删改、重颁、确认，并在新的时代被重新解释。记住它的贡献，也记住它的边界。最后留下的那个问题，直到今天仍值得思考：掌权者作了承诺，谁能让承诺真正算数？"
+      ],
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "id": "card-0",
+            "label": "掌权者的承诺",
+            "detail": "写在纸上的规则",
+            "position": [
+              0.5,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": false
+          },
+          {
+            "id": "card-1",
+            "label": "持续的执行",
+            "detail": "谁能让它算数？",
+            "position": [
+              0.8,
+              0.43
+            ],
+            "width": 0.22,
+            "height": 0.2,
+            "accent": true
+          }
+        ],
+        "links": [
+          {
+            "id": "meaning-link-0",
+            "from": "card-0",
+            "to": "card-1",
+            "label": "留给读者的问题",
+            "semantics": "interpreted",
+            "sourceIds": [
+              "overview",
+              "later-parliament-booklet",
+              "c39",
+              "c61"
+            ],
+            "status": "reviewed",
+            "enter": [
+              0.18,
+              0.4
+            ],
+            "laneY": 0.23,
+            "labelPosition": [
+              0.65,
+              0.23
+            ]
+          }
+        ],
+        "images": [
+          {
+            "mediaId": "magna-cotton-1215",
+            "x": 0.065,
+            "y": 0.17,
+            "width": 0.2,
+            "height": 0.36,
+            "caption": "1215年存世文书，非签字现场。",
+            "focusZoom": 1.018
+          }
+        ],
+        "legend": "虚线：解释性联系；位置不表示地理，不能单独证明因果。"
+      },
+      "camera": [
+        {
+          "t": 0,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        },
+        {
+          "t": 8.34375,
+          "x": 945,
+          "y": 530,
+          "z": 1.018
+        },
+        {
+          "t": 18.541666666666668,
+          "x": 960,
+          "y": 540,
+          "z": 1
+        }
+      ],
+      "timingEvidence": {
+        "segmentId": "voice-meaning",
+        "startCueId": "run-0-c4",
+        "origin": "observed_cue_start_ceil_to_frame",
+        "rawResult": {
+          "path": "audio/subtitles-1bac46156e2d5e7f28f9889eb711e5bdb35b4c5983df9d6479c86c093f925d9c/result.json",
+          "sha256": "3f182283a7a584fc300ee14f5e2f130d66b572e47b8b8861f6888401de059877"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "media": [
+    {
+      "id": "magna-cotton-1215",
+      "kind": "document",
+      "title": "1215年大宪章存世文书：Cotton Augustus II.106",
+      "subject": "英国图书馆藏1215年大宪章存世文本之一；拉丁文羊皮纸文书",
+      "createdDate": "1215（文书）；数字化日期未核定，元数据标记British Library collections 2013，Commons发布2014-03-05",
+      "eventDate": "1215-06-15（大宪章首次颁发）；图像身份不等于独立验证每条条文",
+      "creator": "原文书书写者未在所读图像记录中注明；British Library 收藏及数字化，图像号011345",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(1215)_-_BL_Cotton_MS_Augustus_II_106.jpg",
+      "license": "CC0 1.0 Universal Public Domain Dedication（British Library公开图像，Commons文件页明示）",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "caption": "1215年大宪章的存世文书之一，英国图书馆 Cotton Augustus II.106，图像号011345。文书日期与现代数字化日期分开记录；本图不展示约翰签字的现场。",
+      "derivation": "下载British Library经Commons发布的完整图像；本地未裁切、未调色、未加仿旧。",
+      "evidenceLimit": "用于认识文书载体、文字密度及历史材料外观；本次未据图完成拉丁文逐字转写或条文鉴定，解释须另引已读的条文研究来源。",
+      "width": 2134,
+      "height": 1349,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Magna_Carta_%281215%29_-_BL_Cotton_MS_Augustus_II_106.jpg",
+      "reviewedAt": "2026-10-10",
+      "reviewStatus": "已读取Commons记录、英国图书馆收藏/图像标识、CC0官方说明；已检查下载图像。未声称英国图书馆原目录页面本次可访问",
+      "file": {
+        "path": "media/magna-cotton-1215.jpg",
+        "sha256": "f269d69859bb9456b7ce6962b0f665c1527842bacaa0dfee5ed8645a6db41dcd"
+      }
+    },
+    {
+      "id": "magna-john-paris",
+      "kind": "portrait",
+      "title": "Matthew Paris《Historia Anglorum》中的约翰画像细节",
+      "subject": "英格兰国王约翰的中世纪绘画形象；British Library Royal MS 14 C.VII, f.9（细节）",
+      "createdDate": "1250—1259（原绘画）；Commons当前版2011-12-29，数字再现原始拍摄日期未核定",
+      "eventDate": "1215（解释对象）；该画晚于大宪章颁发约35—44年",
+      "creator": "Matthew Paris（原绘画）；数字图像上传者Soerfm（当前颜色/对比度处理版），原复制摄影者未在所读文件页注明",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_of_England_(John_Lackland).jpg",
+      "license": "Public domain：古代二维艺术作品及忠实再现，Commons PD-Art / PD-old-70；Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "约翰国王的后世画像细节，Matthew Paris，《Historia Anglorum》，约1250—1259年。英国图书馆 Royal MS 14 C.VII, f.9。它是中世纪图像表达，不是1215年的现场记录或写实照片。",
+      "derivation": "下载Commons现有细节裁切版，上传记录注明Color, contrast；本地未再次裁切、未修图。仅345×568像素，适合小幅人物上下文，不宜放大为全屏清晰画像。",
+      "evidenceLimit": "用于辨认参与者和理解时代视觉语言；不将绘画姿态、衣饰或持物当作1215谈判现场证据。Commons结构化depicts出现George King，与文件标题及手写元说明不一致；本记录采用明确文献标识与文件说明并保留此冲突，不标为人物鉴定完全通过。",
+      "width": 345,
+      "height": 568,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/John_of_England_%28John_Lackland%29.jpg",
+      "reviewedAt": "2026-10-10",
+      "reviewStatus": "已读取Commons文件说明、许可与版本处理记录，已检查下载图；英国图书馆原链接未独立核验",
+      "file": {
+        "path": "media/magna-john-paris.jpg",
+        "sha256": "087e1406d003ff331e44ee0bf770b29ad010fbec87fe2e38b611ce3b079c10f9"
+      }
+    },
+    {
+      "id": "magna-henry-iii-paris",
+      "kind": "portrait",
+      "title": "Matthew Paris《Historia Anglorum》中的亨利三世",
+      "subject": "英格兰亨利三世；British Library Royal MS 14 C VII, f.9 的绘画细节",
+      "createdDate": "1250—1259（原绘画）；Commons上传2011-04-03，原数字化日期未核定",
+      "eventDate": "1216—1225（本片后续重新颁布阶段）；图画创作晚于这一阶段",
+      "creator": "Matthew Paris（原绘画，按Commons文件说明）；上传者Rolling Bone，数字复制摄影者未明确",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BL_MS_Royal_14_C_VII_f.9_(Henry_III).jpg",
+      "license": "Public domain，Commons PD-old / Public Domain Mark 1.0；依据古代作品版权期限，并非人物公众身份",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "亨利三世的中世纪绘画形象，Matthew Paris，约1250—1259年。英国图书馆 Royal MS 14 C VII, f.9。此图晚于1216—1225年的重新颁布，不是少年国王当时的写实肖像。",
+      "derivation": "使用Commons现有JPEG完整图版；本地未裁切、调色或合成。原文件SHA-256随作品记录。",
+      "evidenceLimit": "适合作为后续颁布者的小幅人物头像，帮助区别约翰与亨利三世；326×476不宜放大为全屏。不能据成年绘画形象重建1216年九岁国王的外貌、服饰或现场。",
+      "width": 326,
+      "height": 476,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/BL_MS_Royal_14_C_VII_f.9_%28Henry_III%29.jpg",
+      "reviewedAt": "2026-10-11",
+      "reviewStatus": "已读Commons说明、尺寸、许可、版本与结构化字段；已解析原图链接。英国图书馆旧目录链接重定向至馆藏首页，未完成官方原目录独立核验。",
+      "file": {
+        "path": "media/magna-henry-iii-paris.jpg",
+        "sha256": "935d0323390e9ab54b4ebac0ee31936871b3dff2519de2334921f2579b73462c"
+      }
+    },
+    {
+      "id": "magna-langton-seal-birch-1887",
+      "kind": "portrait",
+      "title": "斯蒂芬·兰顿印玺的1887年目录图版",
+      "subject": "坎特伯雷大主教斯蒂芬·兰顿的印玺图像；Commons标原印玺时期1207—1228",
+      "createdDate": "1887（目录图版）；原印玺时期1207—1228（按Commons）；Commons上传2026-04-15",
+      "eventDate": "1215（本片角色说明）；不能将1887年图版当作1215年现场图像",
+      "creator": "Walter de Gray Birch，1842—1924；来源为British Museum Department of Manuscripts出版的Catalogue of seals，第1卷，1887",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stephen_Langton,_Archbishop_of_Canterbury_-_seal,_1207%E2%80%931228.jpg",
+      "license": "Public domain，Commons PD-old-100 / Public Domain Mark 1.0；作者1924年去世，图版1887年出版",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "斯蒂芬·兰顿印玺的目录图版，Walter de Gray Birch，1887年；记录将原印玺系于其1207—1228年大主教任期。它呈现教会权威的象征形象，不是经写实鉴定的面容。",
+      "derivation": "使用Commons现有JPEG完整图版；本地未裁切、调色或合成。原文件SHA-256随作品记录。",
+      "evidenceLimit": "可用于兰顿人物卡和教会权威说明，风格适合羊皮纸作品；应保留印玺整体并标明1887年图版。不能称兰顿生前画像，也不能证明他如何参与每次谈判。未独立翻阅目录原卷对应图版和印玺编号。",
+      "width": 442,
+      "height": 684,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Stephen_Langton%2C_Archbishop_of_Canterbury_-_seal%2C_1207%E2%80%931228.jpg",
+      "reviewedAt": "2026-10-11",
+      "reviewStatus": "已读Commons文件说明、出版来源、作者、许可、版本与结构化人物字段；原目录仅取得引用链接，未独立阅对应页。",
+      "file": {
+        "path": "media/magna-langton-seal-birch-1887.jpg",
+        "sha256": "27bb1f22bcb0e9c2ed690cf9e6b3d221f9ae8e39b7e0dfb808e9f377e24ab001"
+      }
+    },
+    {
+      "id": "magna-forest-charter-1225",
+      "kind": "document",
+      "title": "1225年《森林宪章》重颁文本",
+      "subject": "British Library Additional Charter 24712；1225年森林宪章文书，明确不是1217年首次颁布原件",
+      "createdDate": "1225（文书）；Commons上传2014-11-18；数字复制日期未核定",
+      "eventDate": "1225（本图材料时期）；1217为该独立宪章首次颁布阶段，不是本图日期",
+      "creator": "13世纪原书写者未名；数字摄影British Library Imaging Services",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest-charter-1225-C13550-78.jpg",
+      "license": "Commons明示Public Domain Mark 1.0，称British Library原发布声明为公版；文件内旧IPTC字段仍写© The British Library Board / Copyrighted，保留该冲突",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "1225年《森林宪章》重颁文本，英国图书馆 Additional Charter 24712。森林事项在1217年独立成章；此处展示其1225年文本，不能标为1217年原件。",
+      "derivation": "使用Commons现有JPEG完整图版；本地未裁切、调色或合成。原文件SHA-256随作品记录。",
+      "evidenceLimit": "帮助解释森林事项发展为独立文书及后来重颁；不代替1217、1225版本逐条比较。Commons当前明示公版，但其嵌入旧版权元数据冲突与BL旧网页不可访问均须留在审计记录，不能写成官方当前许可独立核验通过。",
+      "width": 1547,
+      "height": 2000,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Forest-charter-1225-C13550-78.jpg",
+      "reviewedAt": "2026-10-11",
+      "reviewStatus": "已读Commons身份、1547×2000尺寸、许可、文件历史与版权元数据；BL原介绍页现重定向至Stories，未核阅原条目。",
+      "file": {
+        "path": "media/magna-forest-charter-1225.jpg",
+        "sha256": "eb489f04d6e22dc7634cfbdffc0423a8688e2bb609a4c0e6d1a8544d432419ed"
+      }
+    },
+    {
+      "id": "magna-rubenstein-1297-seal",
+      "kind": "document",
+      "title": "1297年大宪章存世文书及印玺：Rubenstein藏本",
+      "subject": "爱德华一世时期1297年大宪章存世文书；David M. Rubenstein拥有、借展美国国家档案馆的藏本",
+      "createdDate": "1297（文书）；Commons最初上传2007-11-06（文件历史UTC为2007-11-05）；摄影日期未核定",
+      "eventDate": "1297（确认与入卷阶段），不能作为1215年原件展示",
+      "creator": "原文书书写者与摄影者未在所读Commons说明中明确；图像来源美国国家档案馆；Commons上传者AzaToth不是原文书作者",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(1297_version_with_seal,_owned_by_David_M_Rubenstein).jpg",
+      "license": "Public domain，Commons PD-Art / PD-old / Public Domain Mark 1.0；此项依据文件页声明，不能仅因NARA网站托管就推定一切材料为CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "1297年大宪章存世文书及印玺，Rubenstein藏本，借展美国国家档案馆。1297年版本进入英格兰官方Statute Rolls；它是后续确认阶段的材料，不是1215年约翰的文书。",
+      "derivation": "使用Commons现有JPEG完整图版；本地未裁切、调色或合成。原文件SHA-256随作品记录。",
+      "evidenceLimit": "适用于解释后续重颁与法律记忆的收束画面；保留整体文书及悬印关系。未以图完成拉丁文逐字转写或鉴定，不能由此推断1297与1215条款完全一致。",
+      "width": 800,
+      "height": 1470,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Magna_Carta_%281297_version_with_seal%2C_owned_by_David_M_Rubenstein%29.jpg",
+      "reviewedAt": "2026-10-11",
+      "reviewStatus": "已读Commons图像身份、800×1470尺寸、NARA来源、许可及上传历史；已读NARA官方材料身份介绍与使用政策。NARA原图直链本工具未能读取；Commons原图链接已解析。",
+      "file": {
+        "path": "media/magna-rubenstein-1297-seal.jpg",
+        "sha256": "f46e1469d228d9b8d49214c2a59697f435c48805c0540bf338084ef82b852b4e"
+      }
+    }
+  ],
+  "audio": [
+    {
+      "id": "voice-realm",
+      "sha256": "cc7578429e16a0f3b62e8fe2f9b9092210395f8509c886a55a72944cc1789691",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-money",
+      "sha256": "49ace673a0145a0c01d601fff73496b0aeed53ee0ef11227ffa4a8caa0d57ba3",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-church",
+      "sha256": "0d3a6262ccb6e98d3130573490536da9ce0a509122f4aaaac0771894bf421df0",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-bouvines",
+      "sha256": "d03a591183236bb01a3f46aef46cd80d6862acde0c32ba3437e8aa3c1963ba79",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-runnymede",
+      "sha256": "fe6ef7b394ddf9cccafb70b1646c8980a8a129a538142847fa56652f105dafb4",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-seal",
+      "sha256": "7a52e2bed9a7a1d675038ed0e9eae3dce9615e13c683f6cb9dc15a40250949bb",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-bargain",
+      "sha256": "80bf5beb7be2626953206978d0204d0f78a8ff5618e25e17e5d18d1d10ccefd9",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-tax",
+      "sha256": "e2c7337f4aebd13795ebad73507f934335b4cfea15139911561b9956d9e1c386",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-justice",
+      "sha256": "c3a34b961006e80387f4898c9aa396e6c203bcc58629657b6d0399b63e326f58",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-scope",
+      "sha256": "8b6e94926a6d410395864de6b4024e8c41ddbefe77dbc44737ff85ae5c849397",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-security",
+      "sha256": "3cced5a6587124b90b4524190d9db0d867ed1086d67544c2a03d825bbcff7c06",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-annulment",
+      "sha256": "905af64d89abe280208fc1036ca602c541e8a25aba70dc63e3394b8cb9a8ffcf",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-war",
+      "sha256": "f038f20af024f8597392b6db713fa355c63a3b122c0a249623af44ab7f267637",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-john-death",
+      "sha256": "030f60ff8b680c94c6e21d6db123220bb5757e73cc2af9a6cd2b147a0a5dbe85",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-reissue-1216",
+      "sha256": "1b25ad084f85155466a4bdae10e4021d70df025927947d527194ffddc3017cb4",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-reissue-1217",
+      "sha256": "25422126ed041b0fa8d3f962949e4ce4e4fc18f573e13a780055fe0b22e14e38",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-forest",
+      "sha256": "2200068a691ff6cab384ebba8b2b5f9b7a6aa08ed926f673f0427298a62ee93e",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-reissue-1225",
+      "sha256": "067047ae0bdf5cff2d5feee43823c6639ddec4252b3b23d937cbeafbf1063595",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-statute",
+      "sha256": "236c271925d441dad641a24fd68be7dcc41bf9358ab16415e43fef5e55dc4a36",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-coke",
+      "sha256": "640fbb9052a1c018bc40468a6807a7944b2cec938c64c8f3829749c286729bda",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-symbol",
+      "sha256": "07457d6eb7688d25c71f5e5e5282babd106d647bd24baf1c0c457ae933e638f7",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    },
+    {
+      "id": "voice-meaning",
+      "sha256": "1ba8a257bfb75cbae9bfc6ad995a42731ce9092a1d37ac0922d42e334733c4e3",
+      "provenance": {
+        "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
+        "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
+      }
+    }
+  ],
+  "nativeLicenses": [
+    "licenses/Huashu-MIT.txt",
+    "licenses/Noto-OFL.txt",
+    "licenses/GSAP-NOTICE.txt"
+  ]
+}

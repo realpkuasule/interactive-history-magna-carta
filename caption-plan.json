@@ -1,0 +1,2193 @@
+{
+  "schemaVersion": "1.0",
+  "defaultVisible": true,
+  "placement": "canvas",
+  "fps": 24,
+  "cues": [
+    {
+      "id": "voice-realm-caption-0",
+      "nodeId": "realm",
+      "shotId": "realm-1",
+      "text": "讲大宪章，先别急着看那张羊皮纸。",
+      "startFrame": 3,
+      "endFrame": 83,
+      "trackId": "voice-realm",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 3,
+        "endFrame": 72
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-realm-caption-1",
+      "nodeId": "realm",
+      "shotId": "realm-1",
+      "text": "约翰是英格兰国王，家族却还在法国拥有大片领地。",
+      "startFrame": 83,
+      "endFrame": 180,
+      "trackId": "voice-realm",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 83,
+        "endFrame": 172
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-realm-caption-2",
+      "nodeId": "realm",
+      "shotId": "realm-2",
+      "text": "1204年，他丢掉了诺曼底等重要地区。",
+      "startFrame": 180,
+      "endFrame": 258,
+      "trackId": "voice-realm",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 180,
+        "endFrame": 252
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-realm-caption-3",
+      "nodeId": "realm",
+      "shotId": "realm-2",
+      "text": "他想夺回来，就得筹钱打仗。",
+      "startFrame": 258,
+      "endFrame": 317,
+      "trackId": "voice-realm",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 258,
+        "endFrame": 312
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-realm-caption-4",
+      "nodeId": "realm",
+      "shotId": "realm-2",
+      "text": "海峡另一边的战争，逐渐变成了英格兰贵族身上的负担。",
+      "startFrame": 317,
+      "endFrame": 423,
+      "trackId": "voice-realm",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11"
+      ],
+      "observedRange": {
+        "startFrame": 317,
+        "endFrame": 406
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-realm-caption-5",
+      "nodeId": "realm",
+      "shotId": "realm-2",
+      "text": "大宪章的起点，是这一场越来越难维持的权力与财政关系。",
+      "startFrame": 423,
+      "endFrame": 570,
+      "trackId": "voice-realm",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 423,
+        "endFrame": 545
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-money-caption-0",
+      "nodeId": "money",
+      "shotId": "money-1",
+      "text": "国王需要的钱，要从哪里来？",
+      "startFrame": 575,
+      "endFrame": 650,
+      "trackId": "voice-money",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 575,
+        "endFrame": 629
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-money-caption-1",
+      "nodeId": "money",
+      "shotId": "money-1",
+      "text": "贵族可以交钱代替出兵，继承、婚姻和监护也可能产生付款义务。",
+      "startFrame": 650,
+      "endFrame": 804,
+      "trackId": "voice-money",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 650,
+        "endFrame": 783
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-money-caption-2",
+      "nodeId": "money",
+      "shotId": "money-2",
+      "text": "问题是，这些要求越来越重，战争又没有带来预期回报。",
+      "startFrame": 804,
+      "endFrame": 924,
+      "trackId": "voice-money",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 804,
+        "endFrame": 910
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-money-caption-3",
+      "nodeId": "money",
+      "shotId": "money-2",
+      "text": "贵族担心的不只是口袋里的钱，还有家产和地位会不会被王权随意处置。",
+      "startFrame": 924,
+      "endFrame": 1079,
+      "trackId": "voice-money",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12"
+      ],
+      "observedRange": {
+        "startFrame": 924,
+        "endFrame": 1064
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-money-caption-4",
+      "nodeId": "money",
+      "shotId": "money-2",
+      "text": "所以，他们要的是把国王也约束在可辨认的规则里。",
+      "startFrame": 1079,
+      "endFrame": 1202,
+      "trackId": "voice-money",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 1079,
+        "endFrame": 1176
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-church-caption-0",
+      "nodeId": "church",
+      "shotId": "church-1",
+      "text": "桌边还有一股重要力量：教会。",
+      "startFrame": 1205,
+      "endFrame": 1285,
+      "trackId": "voice-church",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 1205,
+        "endFrame": 1267
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-church-caption-1",
+      "nodeId": "church",
+      "shotId": "church-1",
+      "text": "兰顿大主教参与协商，教会自身的自由也写进了宪章。",
+      "startFrame": 1285,
+      "endFrame": 1385,
+      "trackId": "voice-church",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 1285,
+        "endFrame": 1377
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-church-caption-2",
+      "nodeId": "church",
+      "shotId": "church-2",
+      "text": "但本地大主教和罗马教皇，并不总是站在同一位置。",
+      "startFrame": 1385,
+      "endFrame": 1479,
+      "trackId": "voice-church",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6-p1",
+        "run-0-c6-p2"
+      ],
+      "observedRange": {
+        "startFrame": 1385,
+        "endFrame": 1471
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-church-caption-3",
+      "nodeId": "church",
+      "shotId": "church-2",
+      "text": "后来，约翰正是借助教皇的支持，推翻了这次安排。",
+      "startFrame": 1479,
+      "endFrame": 1571,
+      "trackId": "voice-church",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c7",
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10"
+      ],
+      "observedRange": {
+        "startFrame": 1479,
+        "endFrame": 1564
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-church-caption-4",
+      "nodeId": "church",
+      "shotId": "church-2",
+      "text": "记住这个区别，我们才看得懂：看似达成的和平，为什么很快又散了。",
+      "startFrame": 1571,
+      "endFrame": 1727,
+      "trackId": "voice-church",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14"
+      ],
+      "observedRange": {
+        "startFrame": 1571,
+        "endFrame": 1705
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bouvines-caption-0",
+      "nodeId": "bouvines",
+      "shotId": "bouvines-1",
+      "text": "1214年，约翰的夺地计划受到重创。",
+      "startFrame": 1738,
+      "endFrame": 1813,
+      "trackId": "voice-bouvines",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 1738,
+        "endFrame": 1804
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bouvines-caption-1",
+      "nodeId": "bouvines",
+      "shotId": "bouvines-1",
+      "text": "布汶战役中，他的盟军败了；约翰本人在另一处，不能说他亲自在布汶战败。",
+      "startFrame": 1813,
+      "endFrame": 1950,
+      "trackId": "voice-bouvines",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 1813,
+        "endFrame": 1943
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bouvines-caption-2",
+      "nodeId": "bouvines",
+      "shotId": "bouvines-2",
+      "text": "军事失败没有消除筹款压力，反而让旧怨集中爆发。",
+      "startFrame": 1950,
+      "endFrame": 2059,
+      "trackId": "voice-bouvines",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9"
+      ],
+      "observedRange": {
+        "startFrame": 1950,
+        "endFrame": 2052
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bouvines-caption-3",
+      "nodeId": "bouvines",
+      "shotId": "bouvines-2",
+      "text": "到了1215年春，反叛贵族控制了伦敦。",
+      "startFrame": 2059,
+      "endFrame": 2145,
+      "trackId": "voice-bouvines",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c10",
+        "run-0-c11"
+      ],
+      "observedRange": {
+        "startFrame": 2059,
+        "endFrame": 2137
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bouvines-caption-4",
+      "nodeId": "bouvines",
+      "shotId": "bouvines-3",
+      "text": "双方手里都有武力，谁也不容易压倒谁，谈判就这样被推到了眼前。",
+      "startFrame": 2145,
+      "endFrame": 2301,
+      "trackId": "voice-bouvines",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 2145,
+        "endFrame": 2279
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-runnymede-caption-0",
+      "nodeId": "runnymede",
+      "shotId": "runnymede-1",
+      "text": "1215年6月15日，双方在兰尼米德达成协议。",
+      "startFrame": 2306,
+      "endFrame": 2405,
+      "trackId": "voice-runnymede",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 2306,
+        "endFrame": 2393
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-runnymede-caption-1",
+      "nodeId": "runnymede",
+      "shotId": "runnymede-1",
+      "text": "先把它想成一份要止住内战的和约：约翰希望恢复服从，贵族要求把王权的边界写下来。",
+      "startFrame": 2405,
+      "endFrame": 2577,
+      "trackId": "voice-runnymede",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 2405,
+        "endFrame": 2572
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-runnymede-caption-2",
+      "nodeId": "runnymede",
+      "shotId": "runnymede-2",
+      "text": "它很重要，却没有一夜之间建立现代民主。",
+      "startFrame": 2577,
+      "endFrame": 2663,
+      "trackId": "voice-runnymede",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10"
+      ],
+      "observedRange": {
+        "startFrame": 2577,
+        "endFrame": 2651
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-runnymede-caption-3",
+      "nodeId": "runnymede",
+      "shotId": "runnymede-2",
+      "text": "真正有意思的地方是，这场和平很快失败了，文书中的一些承诺却活了下来。",
+      "startFrame": 2663,
+      "endFrame": 2843,
+      "trackId": "voice-runnymede",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15",
+        "run-0-c16"
+      ],
+      "observedRange": {
+        "startFrame": 2663,
+        "endFrame": 2818
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-seal-seal-1-caption-0",
+      "nodeId": "seal",
+      "shotId": "seal-1",
+      "text": "还有一个常见画面要改一改：约翰并不是像今天签合同那样，在宪章末尾签下姓名。",
+      "startFrame": 2843,
+      "endFrame": 3006,
+      "timingKind": "planned",
+      "sourceKind": "shot_narration",
+      "trackId": "voice-seal"
+    },
+    {
+      "id": "voice-seal-seal-1-caption-1",
+      "nodeId": "seal",
+      "shotId": "seal-1",
+      "text": "王室文书靠大印认证。",
+      "startFrame": 3006,
+      "endFrame": 3051,
+      "timingKind": "planned",
+      "sourceKind": "shot_narration",
+      "trackId": "voice-seal"
+    },
+    {
+      "id": "voice-seal-seal-2-caption-0",
+      "nodeId": "seal",
+      "shotId": "seal-2",
+      "text": "拉丁文文本随后被制作、传播。",
+      "startFrame": 3051,
+      "endFrame": 3116,
+      "timingKind": "planned",
+      "sourceKind": "shot_narration",
+      "trackId": "voice-seal"
+    },
+    {
+      "id": "voice-seal-seal-2-caption-1",
+      "nodeId": "seal",
+      "shotId": "seal-2",
+      "text": "我们展示的羊皮纸，是理解当时承诺的材料；",
+      "startFrame": 3116,
+      "endFrame": 3210,
+      "timingKind": "planned",
+      "sourceKind": "shot_narration",
+      "trackId": "voice-seal"
+    },
+    {
+      "id": "voice-seal-seal-2-caption-2",
+      "nodeId": "seal",
+      "shotId": "seal-2",
+      "text": "旁边的中文卡片和连线，则是今天为你整理的说明。",
+      "startFrame": 3210,
+      "endFrame": 3318,
+      "timingKind": "planned",
+      "sourceKind": "shot_narration",
+      "trackId": "voice-seal"
+    },
+    {
+      "id": "voice-seal-seal-2-caption-3",
+      "nodeId": "seal",
+      "shotId": "seal-2",
+      "text": "两者不能混为一谈。",
+      "startFrame": 3318,
+      "endFrame": 3343,
+      "timingKind": "planned",
+      "sourceKind": "shot_narration",
+      "trackId": "voice-seal"
+    },
+    {
+      "id": "voice-bargain-caption-0",
+      "nodeId": "bargain",
+      "shotId": "bargain-1",
+      "text": "打开宪章，你会发现它谈的事情非常具体：继承、债务、婚姻、城市权利，还有森林制度。",
+      "startFrame": 3364,
+      "endFrame": 3542,
+      "trackId": "voice-bargain",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6"
+      ],
+      "observedRange": {
+        "startFrame": 3364,
+        "endFrame": 3531
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bargain-caption-1",
+      "nodeId": "bargain",
+      "shotId": "bargain-1",
+      "text": "后世著名的大原则，最初往往藏在这些现实争端里。",
+      "startFrame": 3542,
+      "endFrame": 3635,
+      "trackId": "voice-bargain",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c7",
+        "run-0-c8",
+        "run-0-c9"
+      ],
+      "observedRange": {
+        "startFrame": 3542,
+        "endFrame": 3623
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-bargain-caption-2",
+      "nodeId": "bargain",
+      "shotId": "bargain-2",
+      "text": "接下来，我们抓住四个问题：国王怎样要钱，司法怎样约束权力，承诺保护谁，以及违约后谁来执行。",
+      "startFrame": 3635,
+      "endFrame": 3901,
+      "trackId": "voice-bargain",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14"
+      ],
+      "observedRange": {
+        "startFrame": 3635,
+        "endFrame": 3879
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-tax-caption-0",
+      "nodeId": "tax",
+      "shotId": "tax-1",
+      "text": "先看钱。",
+      "startFrame": 3907,
+      "endFrame": 3935,
+      "trackId": "voice-tax",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1"
+      ],
+      "observedRange": {
+        "startFrame": 3907,
+        "endFrame": 3924
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-tax-caption-1",
+      "nodeId": "tax",
+      "shotId": "tax-1",
+      "text": "第12条要求，征收某些兵役代役金和援助金，应当经过共同协商；它也保留了几类例外。",
+      "startFrame": 3935,
+      "endFrame": 4101,
+      "trackId": "voice-tax",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c2-p1",
+        "run-0-c2-p2",
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 3935,
+        "endFrame": 4092
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-tax-caption-2",
+      "nodeId": "tax",
+      "shotId": "tax-2",
+      "text": "那谁来协商呢？",
+      "startFrame": 4101,
+      "endFrame": 4130,
+      "trackId": "voice-tax",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4"
+      ],
+      "observedRange": {
+        "startFrame": 4101,
+        "endFrame": 4122
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-tax-caption-3",
+      "nodeId": "tax",
+      "shotId": "tax-3",
+      "text": "主要是教会领袖、贵族和直接从国王那里领地的人。",
+      "startFrame": 4130,
+      "endFrame": 4225,
+      "trackId": "voice-tax",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 4130,
+        "endFrame": 4219
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-tax-caption-4",
+      "nodeId": "tax",
+      "shotId": "tax-3",
+      "text": "这里已经出现了征钱需要同意的要求，但距离一人一票、议会代表全体居民，还很远。",
+      "startFrame": 4225,
+      "endFrame": 4397,
+      "trackId": "voice-tax",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13"
+      ],
+      "observedRange": {
+        "startFrame": 4225,
+        "endFrame": 4375
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-justice-caption-0",
+      "nodeId": "justice",
+      "shotId": "justice-1",
+      "text": "最有名的是第39和第40条。",
+      "startFrame": 4400,
+      "endFrame": 4457,
+      "trackId": "voice-justice",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 4400,
+        "endFrame": 4447
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-justice-caption-1",
+      "nodeId": "justice",
+      "shotId": "justice-1",
+      "text": "国王不能任意拘捕、剥夺财产，也不能出卖、拒绝或拖延司法。",
+      "startFrame": 4457,
+      "endFrame": 4582,
+      "trackId": "voice-justice",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6"
+      ],
+      "observedRange": {
+        "startFrame": 4457,
+        "endFrame": 4574
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-justice-caption-2",
+      "nodeId": "justice",
+      "shotId": "justice-2",
+      "text": "不过，原文说的自由人和同等身份者，都带着中世纪的含义，不能直接换成今天人人平等的公民和现代陪审团。",
+      "startFrame": 4582,
+      "endFrame": 4819,
+      "trackId": "voice-justice",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c7",
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11"
+      ],
+      "observedRange": {
+        "startFrame": 4582,
+        "endFrame": 4813
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-justice-caption-3",
+      "nodeId": "justice",
+      "shotId": "justice-2",
+      "text": "后世从这些话里发展出更广的原则，那是一段继续发生的历史。",
+      "startFrame": 4819,
+      "endFrame": 4941,
+      "trackId": "voice-justice",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15",
+        "run-0-c16"
+      ],
+      "observedRange": {
+        "startFrame": 4819,
+        "endFrame": 4920
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-scope-caption-0",
+      "nodeId": "scope",
+      "shotId": "scope-1",
+      "text": "那么，它只保护贵族吗？",
+      "startFrame": 4950,
+      "endFrame": 5031,
+      "trackId": "voice-scope",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 4950,
+        "endFrame": 5002
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-scope-caption-1",
+      "nodeId": "scope",
+      "shotId": "scope-1",
+      "text": "也不完全是。",
+      "startFrame": 5031,
+      "endFrame": 5068,
+      "trackId": "voice-scope",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 5031,
+        "endFrame": 5051
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-scope-caption-2",
+      "nodeId": "scope",
+      "shotId": "scope-2",
+      "text": "城市、商人和一些自由土地持有者的利益，都出现在条文里。",
+      "startFrame": 5068,
+      "endFrame": 5186,
+      "trackId": "voice-scope",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 5068,
+        "endFrame": 5175
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-scope-caption-3",
+      "nodeId": "scope",
+      "shotId": "scope-2",
+      "text": "寡妇也得到部分财产和再婚意愿的保护。",
+      "startFrame": 5186,
+      "endFrame": 5265,
+      "trackId": "voice-scope",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 5186,
+        "endFrame": 5258
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-scope-caption-4",
+      "nodeId": "scope",
+      "shotId": "scope-3",
+      "text": "但大量非自由农民没有同等地位，女性的选择仍受领主权力限制。",
+      "startFrame": 5265,
+      "endFrame": 5397,
+      "trackId": "voice-scope",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10"
+      ],
+      "observedRange": {
+        "startFrame": 5265,
+        "endFrame": 5388
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-scope-caption-5",
+      "nodeId": "scope",
+      "shotId": "scope-3",
+      "text": "看这份文书，要同时看到它减少了哪些侵害，又保留了哪些不平等。",
+      "startFrame": 5397,
+      "endFrame": 5548,
+      "trackId": "voice-scope",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14"
+      ],
+      "observedRange": {
+        "startFrame": 5397,
+        "endFrame": 5526
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-security-caption-0",
+      "nodeId": "security",
+      "shotId": "security-1",
+      "text": "承诺写下来了，谁来保证国王照做？",
+      "startFrame": 5551,
+      "endFrame": 5627,
+      "trackId": "voice-security",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 5551,
+        "endFrame": 5618
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-security-caption-1",
+      "nodeId": "security",
+      "shotId": "security-2",
+      "text": "保障条款交给25名贵族一项特殊权力：先提出违约，给国王40天纠正；如果仍不补救，就可以扣押城堡、土地和财产。",
+      "startFrame": 5627,
+      "endFrame": 5889,
+      "trackId": "voice-security",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 5627,
+        "endFrame": 5880
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-security-caption-2",
+      "nodeId": "security",
+      "shotId": "security-3",
+      "text": "这个设计很强硬，也很脆弱。",
+      "startFrame": 5889,
+      "endFrame": 5947,
+      "trackId": "voice-security",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12"
+      ],
+      "observedRange": {
+        "startFrame": 5889,
+        "endFrame": 5940
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-security-caption-3",
+      "nodeId": "security",
+      "shotId": "security-3",
+      "text": "执行靠的还是贵族的力量，而不是一个稳定的独立裁判机构。",
+      "startFrame": 5947,
+      "endFrame": 6056,
+      "trackId": "voice-security",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15",
+        "run-0-c16",
+        "run-0-c17"
+      ],
+      "observedRange": {
+        "startFrame": 5947,
+        "endFrame": 6041
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-security-caption-4",
+      "nodeId": "security",
+      "shotId": "security-3",
+      "text": "写进文书，和真正执行，是两回事。",
+      "startFrame": 6056,
+      "endFrame": 6156,
+      "trackId": "voice-security",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c18"
+      ],
+      "observedRange": {
+        "startFrame": 6056,
+        "endFrame": 6133
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-annulment-caption-0",
+      "nodeId": "annulment",
+      "shotId": "annulment-1",
+      "text": "和平没有维持多久。",
+      "startFrame": 6163,
+      "endFrame": 6204,
+      "trackId": "voice-annulment",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1"
+      ],
+      "observedRange": {
+        "startFrame": 6163,
+        "endFrame": 6192
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-annulment-caption-1",
+      "nodeId": "annulment",
+      "shotId": "annulment-1",
+      "text": "1215年8月，约翰得到教皇的支持，教皇宣布宪章无效。",
+      "startFrame": 6204,
+      "endFrame": 6338,
+      "trackId": "voice-annulment",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c2",
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 6204,
+        "endFrame": 6326
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-annulment-caption-2",
+      "nodeId": "annulment",
+      "shotId": "annulment-2",
+      "text": "这里不是约翰一个人把纸撕掉那么简单：教皇的权威，给了他反对协议的重要依据。",
+      "startFrame": 6338,
+      "endFrame": 6480,
+      "trackId": "voice-annulment",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10"
+      ],
+      "observedRange": {
+        "startFrame": 6338,
+        "endFrame": 6470
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-annulment-caption-3",
+      "nodeId": "annulment",
+      "shotId": "annulment-2",
+      "text": "但贵族的不满不会因此消失。",
+      "startFrame": 6480,
+      "endFrame": 6541,
+      "trackId": "voice-annulment",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c11",
+        "run-0-c12"
+      ],
+      "observedRange": {
+        "startFrame": 6480,
+        "endFrame": 6535
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-annulment-caption-4",
+      "nodeId": "annulment",
+      "shotId": "annulment-2",
+      "text": "共同的规则没能站稳，双方又回到武力较量。",
+      "startFrame": 6541,
+      "endFrame": 6642,
+      "trackId": "voice-annulment",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 6541,
+        "endFrame": 6620
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-war-caption-0",
+      "nodeId": "war",
+      "shotId": "war-1",
+      "text": "贵族还做了一个今天听来意外的选择：邀请法国王子路易来争夺王位。",
+      "startFrame": 6648,
+      "endFrame": 6803,
+      "trackId": "voice-war",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 6648,
+        "endFrame": 6786
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-war-caption-1",
+      "nodeId": "war",
+      "shotId": "war-1",
+      "text": "1216年，他带兵抵达，在伦敦被拥立，却没有加冕。",
+      "startFrame": 6803,
+      "endFrame": 6916,
+      "trackId": "voice-war",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6"
+      ],
+      "observedRange": {
+        "startFrame": 6803,
+        "endFrame": 6906
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-war-caption-2",
+      "nodeId": "war",
+      "shotId": "war-2",
+      "text": "反对约翰，并不等于反对君主制。",
+      "startFrame": 6916,
+      "endFrame": 6995,
+      "trackId": "voice-war",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 6916,
+        "endFrame": 6983
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-war-caption-3",
+      "nodeId": "war",
+      "shotId": "war-3",
+      "text": "战争一直拖到1217年，林肯和桑威奇的失利，才让路易阵营走向和解。",
+      "startFrame": 6995,
+      "endFrame": 7142,
+      "trackId": "voice-war",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10"
+      ],
+      "observedRange": {
+        "startFrame": 6995,
+        "endFrame": 7131
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-war-caption-4",
+      "nodeId": "war",
+      "shotId": "war-3",
+      "text": "宪章的命运，始终与力量的变化绑在一起。",
+      "startFrame": 7142,
+      "endFrame": 7248,
+      "trackId": "voice-war",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13"
+      ],
+      "observedRange": {
+        "startFrame": 7142,
+        "endFrame": 7223
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-john-death-caption-0",
+      "nodeId": "john-death",
+      "shotId": "john-death-1",
+      "text": "1216年10月，约翰去世，九岁的亨利三世继位。",
+      "startFrame": 7255,
+      "endFrame": 7364,
+      "trackId": "voice-john-death",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3",
+        "run-0-c4"
+      ],
+      "observedRange": {
+        "startFrame": 7255,
+        "endFrame": 7353
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-john-death-caption-1",
+      "nodeId": "john-death",
+      "shotId": "john-death-1",
+      "text": "战争并没有马上结束，但政治局面变了。",
+      "startFrame": 7364,
+      "endFrame": 7441,
+      "trackId": "voice-john-death",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c5",
+        "run-0-c6"
+      ],
+      "observedRange": {
+        "startFrame": 7364,
+        "endFrame": 7433
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-john-death-caption-2",
+      "nodeId": "john-death",
+      "shotId": "john-death-2",
+      "text": "原先反对约翰的贵族，现在可以转而接受这个孩子。",
+      "startFrame": 7441,
+      "endFrame": 7538,
+      "trackId": "voice-john-death",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 7441,
+        "endFrame": 7531
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-john-death-caption-3",
+      "nodeId": "john-death",
+      "shotId": "john-death-2",
+      "text": "摄政政府抓住机会：重新承诺一些自由，争取支持。",
+      "startFrame": 7538,
+      "endFrame": 7639,
+      "trackId": "voice-john-death",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11"
+      ],
+      "observedRange": {
+        "startFrame": 7538,
+        "endFrame": 7630
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-john-death-caption-4",
+      "nodeId": "john-death",
+      "shotId": "john-death-2",
+      "text": "于是，原本限制国王的宪章，也成了王室重新站稳的工具。",
+      "startFrame": 7639,
+      "endFrame": 7768,
+      "trackId": "voice-john-death",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 7639,
+        "endFrame": 7747
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1216-caption-0",
+      "nodeId": "reissue-1216",
+      "shotId": "reissue-1216-1",
+      "text": "1216年11月，宪章第一次重新颁布。",
+      "startFrame": 7774,
+      "endFrame": 7861,
+      "trackId": "voice-reissue-1216",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 7774,
+        "endFrame": 7852
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1216-caption-1",
+      "nodeId": "reissue-1216",
+      "shotId": "reissue-1216-1",
+      "text": "幼王还没有自己的大印，摄政者和教皇使节用印认证。",
+      "startFrame": 7861,
+      "endFrame": 7972,
+      "trackId": "voice-reissue-1216",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 7861,
+        "endFrame": 7963
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1216-caption-2",
+      "nodeId": "reissue-1216",
+      "shotId": "reissue-1216-2",
+      "text": "文本也变了，特别强硬的保障安排被去掉。",
+      "startFrame": 7972,
+      "endFrame": 8056,
+      "trackId": "voice-reissue-1216",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 7972,
+        "endFrame": 8047
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1216-caption-3",
+      "nodeId": "reissue-1216",
+      "shotId": "reissue-1216-2",
+      "text": "王室要保留能吸引支持的承诺，同时避免让宪章继续成为对抗王权的工具。",
+      "startFrame": 8056,
+      "endFrame": 8205,
+      "trackId": "voice-reissue-1216",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12"
+      ],
+      "observedRange": {
+        "startFrame": 8056,
+        "endFrame": 8193
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1216-caption-4",
+      "nodeId": "reissue-1216",
+      "shotId": "reissue-1216-2",
+      "text": "文书活下来了，但已经不是原封不动的1215年版本。",
+      "startFrame": 8205,
+      "endFrame": 8327,
+      "trackId": "voice-reissue-1216",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 8205,
+        "endFrame": 8307
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1217-caption-0",
+      "nodeId": "reissue-1217",
+      "shotId": "reissue-1217-1",
+      "text": "到了1217年，战争终于走向和解，宪章再次重颁。",
+      "startFrame": 8333,
+      "endFrame": 8447,
+      "trackId": "voice-reissue-1217",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 8333,
+        "endFrame": 8439
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1217-caption-1",
+      "nodeId": "reissue-1217",
+      "shotId": "reissue-1217-1",
+      "text": "它现在承担的新任务，是让一个刚经历内战的王国重新合作。",
+      "startFrame": 8447,
+      "endFrame": 8554,
+      "trackId": "voice-reissue-1217",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6"
+      ],
+      "observedRange": {
+        "startFrame": 8447,
+        "endFrame": 8545
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1217-caption-2",
+      "nodeId": "reissue-1217",
+      "shotId": "reissue-1217-2",
+      "text": "与此同时，森林事项另立一份宪章。",
+      "startFrame": 8554,
+      "endFrame": 8636,
+      "trackId": "voice-reissue-1217",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 8554,
+        "endFrame": 8626
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1217-caption-3",
+      "nodeId": "reissue-1217",
+      "shotId": "reissue-1217-2",
+      "text": "理解这两份文书，我们就能看到：限制权力，既关乎王位和贵族，也关乎土地与日常生活。",
+      "startFrame": 8636,
+      "endFrame": 8854,
+      "trackId": "voice-reissue-1217",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13"
+      ],
+      "observedRange": {
+        "startFrame": 8636,
+        "endFrame": 8831
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-forest-caption-0",
+      "nodeId": "forest",
+      "shotId": "forest-1",
+      "text": "这里的森林，不一定就是密林。",
+      "startFrame": 8856,
+      "endFrame": 8912,
+      "trackId": "voice-forest",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 8856,
+        "endFrame": 8904
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-forest-caption-1",
+      "nodeId": "forest",
+      "shotId": "forest-1",
+      "text": "它首先是一片受到王室特别管制的区域，里面还可能有牧地和村庄。",
+      "startFrame": 8912,
+      "endFrame": 9041,
+      "trackId": "voice-forest",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3",
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 8912,
+        "endFrame": 9028
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-forest-caption-2",
+      "nodeId": "forest",
+      "shotId": "forest-2",
+      "text": "森林宪章处理这些规则怎样影响人们放牧、取用燃料和使用土地。",
+      "startFrame": 9041,
+      "endFrame": 9174,
+      "trackId": "voice-forest",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 9041,
+        "endFrame": 9169
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-forest-caption-3",
+      "nodeId": "forest",
+      "shotId": "forest-3",
+      "text": "它在1217年独立颁布。",
+      "startFrame": 9174,
+      "endFrame": 9223,
+      "trackId": "voice-forest",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9"
+      ],
+      "observedRange": {
+        "startFrame": 9174,
+        "endFrame": 9217
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-forest-caption-4",
+      "nodeId": "forest",
+      "shotId": "forest-3",
+      "text": "画面展示的是1225年重颁文本，日期要分清，不能拿后来的文书冒充最初那一份。",
+      "startFrame": 9223,
+      "endFrame": 9407,
+      "trackId": "voice-forest",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15"
+      ],
+      "observedRange": {
+        "startFrame": 9223,
+        "endFrame": 9382
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1225-caption-0",
+      "nodeId": "reissue-1225",
+      "shotId": "reissue-1225-1",
+      "text": "1225年，亨利三世以自己的大印颁布新版本，换取一笔税收。",
+      "startFrame": 9414,
+      "endFrame": 9544,
+      "trackId": "voice-reissue-1225",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3",
+        "run-0-c4"
+      ],
+      "observedRange": {
+        "startFrame": 9414,
+        "endFrame": 9537
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1225-caption-1",
+      "nodeId": "reissue-1225",
+      "shotId": "reissue-1225-1",
+      "text": "后来长期发挥作用的文本，主要在这时定型。",
+      "startFrame": 9544,
+      "endFrame": 9626,
+      "trackId": "voice-reissue-1225",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 9544,
+        "endFrame": 9617
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1225-caption-2",
+      "nodeId": "reissue-1225",
+      "shotId": "reissue-1225-2",
+      "text": "它保留许多承诺，也删改了原来的安排。",
+      "startFrame": 9626,
+      "endFrame": 9700,
+      "trackId": "voice-reissue-1225",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10"
+      ],
+      "observedRange": {
+        "startFrame": 9626,
+        "endFrame": 9692
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1225-caption-3",
+      "nodeId": "reissue-1225",
+      "shotId": "reissue-1225-2",
+      "text": "你会发现一条反复出现的线索：国王需要钱，其他人便有机会要求确认权利。",
+      "startFrame": 9700,
+      "endFrame": 9885,
+      "trackId": "voice-reissue-1225",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13",
+        "run-0-c14"
+      ],
+      "observedRange": {
+        "startFrame": 9700,
+        "endFrame": 9869
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-reissue-1225-caption-4",
+      "nodeId": "reissue-1225",
+      "shotId": "reissue-1225-2",
+      "text": "宪章的生命，是在这种政治交换中延续的。",
+      "startFrame": 9885,
+      "endFrame": 9990,
+      "trackId": "voice-reissue-1225",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c15",
+        "run-0-c16",
+        "run-0-c17"
+      ],
+      "observedRange": {
+        "startFrame": 9885,
+        "endFrame": 9968
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-statute-caption-0",
+      "nodeId": "statute",
+      "shotId": "statute-1",
+      "text": "再往后看，1297年，爱德华一世确认宪章，修订后的文本进入官方成文法卷。",
+      "startFrame": 9992,
+      "endFrame": 10163,
+      "trackId": "voice-statute",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 9992,
+        "endFrame": 10156
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-statute-caption-1",
+      "nodeId": "statute",
+      "shotId": "statute-1",
+      "text": "距离最初的协议，已经八十多年了。",
+      "startFrame": 10163,
+      "endFrame": 10230,
+      "trackId": "voice-statute",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5"
+      ],
+      "observedRange": {
+        "startFrame": 10163,
+        "endFrame": 10225
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-statute-caption-2",
+      "nodeId": "statute",
+      "shotId": "statute-2",
+      "text": "原初和约失败，与后来的文本获得持久地位，并不冲突。",
+      "startFrame": 10230,
+      "endFrame": 10331,
+      "trackId": "voice-statute",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 10230,
+        "endFrame": 10326
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-statute-caption-3",
+      "nodeId": "statute",
+      "shotId": "statute-2",
+      "text": "正是这些重颁、确认和重新解释，把一场危机里的承诺，变成了可以不断援引的法律资源。",
+      "startFrame": 10331,
+      "endFrame": 10529,
+      "trackId": "voice-statute",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13"
+      ],
+      "observedRange": {
+        "startFrame": 10331,
+        "endFrame": 10506
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-coke-caption-0",
+      "nodeId": "coke",
+      "shotId": "coke-1",
+      "text": "到了17世纪，科克和塞尔登等人又拿起大宪章，反对任意拘禁和未经议会同意的征税。",
+      "startFrame": 10531,
+      "endFrame": 10709,
+      "trackId": "voice-coke",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3",
+        "run-0-c4"
+      ],
+      "observedRange": {
+        "startFrame": 10531,
+        "endFrame": 10697
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-coke-caption-1",
+      "nodeId": "coke",
+      "shotId": "coke-1",
+      "text": "1628年的《权利请愿书》，把这些争论推向新的阶段。",
+      "startFrame": 10709,
+      "endFrame": 10811,
+      "trackId": "voice-coke",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8"
+      ],
+      "observedRange": {
+        "startFrame": 10709,
+        "endFrame": 10802
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-coke-caption-2",
+      "nodeId": "coke",
+      "shotId": "coke-2",
+      "text": "他们不是简单重复中世纪贵族的要求，而是在自己的时代重新解释古老文本。",
+      "startFrame": 10811,
+      "endFrame": 10946,
+      "trackId": "voice-coke",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c9",
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12"
+      ],
+      "observedRange": {
+        "startFrame": 10811,
+        "endFrame": 10939
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-coke-caption-3",
+      "nodeId": "coke",
+      "shotId": "coke-2",
+      "text": "大宪章的影响，正是在这样的引用中不断扩大。",
+      "startFrame": 10946,
+      "endFrame": 11059,
+      "trackId": "voice-coke",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15",
+        "run-0-c16",
+        "run-0-c17"
+      ],
+      "observedRange": {
+        "startFrame": 10946,
+        "endFrame": 11035
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-symbol-caption-0",
+      "nodeId": "symbol",
+      "shotId": "symbol-1",
+      "text": "后来，大宪章跨越大西洋，又进入更多地方的权利讨论。",
+      "startFrame": 11067,
+      "endFrame": 11179,
+      "trackId": "voice-symbol",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2",
+        "run-0-c3",
+        "run-0-c4"
+      ],
+      "observedRange": {
+        "startFrame": 11067,
+        "endFrame": 11170
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-symbol-caption-1",
+      "nodeId": "symbol",
+      "shotId": "symbol-1",
+      "text": "人们记住的，是统治者也必须受到法律约束这个象征。",
+      "startFrame": 11179,
+      "endFrame": 11292,
+      "trackId": "voice-symbol",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7"
+      ],
+      "observedRange": {
+        "startFrame": 11179,
+        "endFrame": 11280
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-symbol-caption-2",
+      "nodeId": "symbol",
+      "shotId": "symbol-2",
+      "text": "1964年，曼德拉在法庭上也提到了它。",
+      "startFrame": 11292,
+      "endFrame": 11375,
+      "trackId": "voice-symbol",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c8",
+        "run-0-c9"
+      ],
+      "observedRange": {
+        "startFrame": 11292,
+        "endFrame": 11368
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-symbol-caption-3",
+      "nodeId": "symbol",
+      "shotId": "symbol-2",
+      "text": "但这不代表1215年已经写好了现代平等的全部答案。",
+      "startFrame": 11375,
+      "endFrame": 11464,
+      "trackId": "voice-symbol",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12"
+      ],
+      "observedRange": {
+        "startFrame": 11375,
+        "endFrame": 11456
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-symbol-caption-4",
+      "nodeId": "symbol",
+      "shotId": "symbol-2",
+      "text": "后人把旧文本带进新的斗争，也赋予了它新的意义。",
+      "startFrame": 11464,
+      "endFrame": 11573,
+      "trackId": "voice-symbol",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c13",
+        "run-0-c14",
+        "run-0-c15",
+        "run-0-c16"
+      ],
+      "observedRange": {
+        "startFrame": 11464,
+        "endFrame": 11552
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-meaning-caption-0",
+      "nodeId": "meaning",
+      "shotId": "meaning-1",
+      "text": "所以，大宪章为什么重要？",
+      "startFrame": 11581,
+      "endFrame": 11635,
+      "trackId": "voice-meaning",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c1",
+        "run-0-c2"
+      ],
+      "observedRange": {
+        "startFrame": 11581,
+        "endFrame": 11629
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-meaning-caption-1",
+      "nodeId": "meaning",
+      "shotId": "meaning-1",
+      "text": "不只是因为1215年发生了一次用印。",
+      "startFrame": 11635,
+      "endFrame": 11703,
+      "trackId": "voice-meaning",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c3"
+      ],
+      "observedRange": {
+        "startFrame": 11635,
+        "endFrame": 11693
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-meaning-caption-2",
+      "nodeId": "meaning",
+      "shotId": "meaning-2",
+      "text": "更因为失败之后，它又被删改、重颁、确认，并在新的时代被重新解释。",
+      "startFrame": 11703,
+      "endFrame": 11884,
+      "trackId": "voice-meaning",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c4",
+        "run-0-c5",
+        "run-0-c6",
+        "run-0-c7",
+        "run-0-c8",
+        "run-0-c9"
+      ],
+      "observedRange": {
+        "startFrame": 11703,
+        "endFrame": 11872
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-meaning-caption-3",
+      "nodeId": "meaning",
+      "shotId": "meaning-2",
+      "text": "记住它的贡献，也记住它的边界。",
+      "startFrame": 11884,
+      "endFrame": 11944,
+      "trackId": "voice-meaning",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c10",
+        "run-0-c11",
+        "run-0-c12",
+        "run-0-c13"
+      ],
+      "observedRange": {
+        "startFrame": 11884,
+        "endFrame": 11935
+      },
+      "displayEndOrigin": "reconstructed_design"
+    },
+    {
+      "id": "voice-meaning-caption-4",
+      "nodeId": "meaning",
+      "shotId": "meaning-2",
+      "text": "最后留下的那个问题，直到今天仍值得思考：掌权者作了承诺，谁能让承诺真正算数？",
+      "startFrame": 11944,
+      "endFrame": 12148,
+      "trackId": "voice-meaning",
+      "timingKind": "observed_start_with_planned_hold",
+      "sourceKind": "audio_caption",
+      "sourceCueIds": [
+        "run-0-c14",
+        "run-0-c15",
+        "run-0-c16",
+        "run-0-c17",
+        "run-0-c18"
+      ],
+      "observedRange": {
+        "startFrame": 11944,
+        "endFrame": 12123
+      },
+      "displayEndOrigin": "reconstructed_design"
+    }
+  ]
+}
