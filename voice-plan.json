@@ -400,6 +400,28 @@
         "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
         "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
       }
+    },
+    {
+      "id": "background-music",
+      "file": {
+        "path": "audio/background-music.flac",
+        "sha256": "d1b6e7733e83c38798da1e00450a158aabc2349fc3fc41dc03ff2ff4cf00ebb7"
+      },
+      "provenance": {
+        "source": "FFmpeg from locked local audio",
+        "license": "来源与授权见公共混音回执及原始资产记录"
+      }
+    },
+    {
+      "id": "background-sfx",
+      "file": {
+        "path": "audio/background-sfx.flac",
+        "sha256": "d676d6cb647d44e7a4ca57b78306277f0562aa0533483d0d75d72587842a692a"
+      },
+      "provenance": {
+        "source": "FFmpeg from locked local audio",
+        "license": "来源与授权见公共混音回执及原始资产记录"
+      }
     }
   ],
   "captions": {
@@ -1565,5 +1587,17 @@
         ]
       }
     ]
-  }
+  },
+  "background": [
+    {
+      "kind": "music",
+      "assetId": "background-music",
+      "frames": 12148
+    },
+    {
+      "kind": "sfx",
+      "assetId": "background-sfx",
+      "frames": 12148
+    }
+  ]
 }

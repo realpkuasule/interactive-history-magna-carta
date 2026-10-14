@@ -33,3 +33,12 @@ export function referenceFrameAt(decodedFrames, time) {
   if (!frame) throw new Error('No decoded frame at reference time');
   return frame;
 }
+
+// Observed reference events must first be mapped onto the same output-frame timeline.
+// This tolerance never applies to sample requests, frame counts or internal seek positions.
+export function compareReferenceEventFrame(actualFrame, referenceFrame) {
+  if (![actualFrame, referenceFrame].every(f => Number.isSafeInteger(f) && f >= 0)) throw Error('Invalid integer frame');
+  const deltaFrames = actualFrame - referenceFrame;
+  if (Math.abs(deltaFrames) > 1) throw Error('REFERENCE_EVENT_ALIGNMENT ' + deltaFrames);
+  return {deltaFrames, toleranceFrames: 1};
+}

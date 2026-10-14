@@ -321,8 +321,33 @@
         "source": "MiniMax speech-2.8-hd / Chinese (Mandarin)_Radio_Host",
         "license": "用户授权生成的MiniMax配音；使用遵循服务条款"
       }
+    },
+    {
+      "id": "background-music",
+      "sha256": "0057946ec22c584ec7bddb91dea7528ea71b082d543b11b0e359fdefb8223748",
+      "provenance": {
+        "source": "FFmpeg from locked local audio",
+        "license": "来源与授权见公共混音回执及原始资产记录"
+      }
+    },
+    {
+      "id": "background-sfx",
+      "sha256": "cfd556c70b8c76256d85eaa63a8c9ee049e2afb600787e67c600df8447daa6ef",
+      "provenance": {
+        "source": "FFmpeg from locked local audio",
+        "license": "来源与授权见公共混音回执及原始资产记录"
+      }
+    },
+    {
+      "id": "fixed-mix",
+      "sha256": "ef2f7a1a844e61639130ed406c34166bc0c3fce0816dd89c8ac8ce93cb34cd41",
+      "provenance": {
+        "source": "FFmpeg from locked local audio",
+        "license": "来源与授权见公共混音回执及原始资产记录"
+      }
     }
   ],
+  "fonts": null,
   "nativeLicenses": [
     "licenses/Huashu-MIT.txt",
     "licenses/Noto-OFL.txt",
